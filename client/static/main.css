@@ -135,6 +135,17 @@ font-size: 5em;
    width:8em;
 }
 
+.top_siteMirror {
+  height: 3em;
+  width: 3em;
+  top: 5.5em;
+  position: absolute;
+  opacity: 70%;
+}
+
+.top_siteMirror:hover {
+  opacity: 100%;
+}
 
 .top_r {
 display: inline-block;
