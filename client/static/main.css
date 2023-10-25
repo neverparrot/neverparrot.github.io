@@ -108,8 +108,8 @@ font-size: 5em;
 
 
 .img_fit_width {
-   height:auto;
-   width:100%;
+  max-width: 90vw;
+  max-height: 90%;
 }
 
 
@@ -123,12 +123,21 @@ font-size: 5em;
    padding: 1em;
 }
 
+
 .img_fit_height {
-   height:100%;
-   width:auto;
+  height: 80em;
+  max-width: 90%;
+  max-height: 90vw;
 }
 
-
+.img_fit_bg80emX80em {
+  display: block;
+  max-width: 90%;
+  max-height: 90vw;
+  width: 90%;
+  height: 80em;
+  margin: 0.5em;
+}
 
 .top_l_img {
    height:8em;
