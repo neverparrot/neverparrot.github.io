@@ -57,4 +57,48 @@ function setOverrideNextToThisBranch(e){
     );
 
 }
-   
+
+
+function set_float_main_nailed_stuff_width(e){
+  const ruler = document.getElementById("floatMenuRuler");
+  const ruler1em = document.getElementById("ruler1em");
+  const ruler100psnt = document.getElementById("ruler100psnt");
+  const floatThis = document.getElementById("float_main_nailed_stuff");
+  
+  if (ruler.offsetWidth === ruler100psnt.offsetWidth) {
+      floatThis.style.float = "none";
+    } else {
+      floatThis.style.width = ruler.offsetWidth;
+      floatThis.style.paddingLeft = ruler1em.offsetWidth*4;
+      floatThis.style.paddingBottom = ruler1em.offsetWidth*4;
+      floatThis.style.marginLeft = ruler1em.offsetWidth*4;
+      floatThis.style.marginBottom = ruler1em.offsetWidth*4;
+      //floatThis.style.borderLeft = "medium solid lightgrey";
+      //floatThis.style.borderBottom = "medium solid lightgrey";
+      floatThis.style.border = "medium solid";
+      floatThis.style.borderImage = "linear-gradient(to top, lightgray, rgba(0, 0, 0, 0) ) 1 100%";
+      floatThis.style.borderRight = 0;
+    }
+}
+
+
+function set_main_nailed_stuff_1shot(e){
+  const display = document.getElementById("display");
+  const display1shot = document.getElementById("display1shot");
+  display1shot.innerHTML = display.innerHTML;
+  document.getElementById("display").childNodes.forEach(function(n){
+      n.style.display = "none";
+    }
+    );
+  display.style.display = "block";
+}
+
+
+
+function runCode(c){
+  var a=new Function(c);
+  a.apply(null);
+} 
+
+
+
