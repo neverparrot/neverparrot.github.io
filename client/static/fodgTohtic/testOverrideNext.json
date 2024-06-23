@@ -1,0 +1,10 @@
+{
+ "inputFile"    : "testOverrideNext.fodg"
+,"outputFile"   : "testOverrideNext.html"
+,"templateFile" : "tmpE5.html"
+,"verbosity"    : ["all"
+                  ,"showAllConnectors"
+                  ,"showAllConnected"
+                  ,"show_meaningfullNodes_after_initialParse"
+                  ]
+}
