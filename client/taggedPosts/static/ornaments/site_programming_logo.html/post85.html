@@ -271,12 +271,12 @@
   </p>
    , где "id1id2" это произвольное значение призванное иллюстрировать id узла-ветки на который указывает нулевой переход на следующий узел-ветку (переходы считаются начиная с 0) относительно узла-ветки к которому привязан runCode. 
 </div>
-<div style='background-color: aliceblue;margin-top: 1em;'>
+<div style='background-color: aliceblue;'>
   <span style='display:inline-block;width:2em;'></span>Finally
   <p style='overflow-x: auto;max-width: 95%;'>
     <span style='display:inline-block;width:2em;'></span>setOverrideNextToThisBranchString(branchName,v) 
   </p>
-   is a function that was used in the given example to set the overrideNext pointer. Do note that at the time of fodg creation it is impossible to know the id of the branch-node the pointer is supposed to be set to, which means that the value of the branchName argument can not be provided. This conundrum is solved by hticExt that provides value for us during html assembly. To do that hticExt looks into the Description of the runCode-node for the substring it should search for in the text of the runCode-node to replace with the appropriate id value. In the given example the substring is "branchName" so
+   is a function that was used in the given example to set the overrideNext pointer. Do note that at the time of fodg creation it is impossible to know the id of the branch-node the pointer is supposed to be set to, which means that the value of the branchName argument can not be provided. This conundrum is solved by hticExt that provides value for us during html assembly. To do that hticExt looks into the Description of the runCode-node for the substring it should search for in the text of the runCode-node to replace it with the appropriate id value. In the given example the substring is "branchName" so
   <p style='overflow-x: auto;max-width: 95%;'>
     <span style='display:inline-block;width:2em;'></span>setOverrideNextToThisBranchString("branchName","overrideNxt1") 
   </p>
@@ -290,7 +290,7 @@
   <span style='display:inline-block;width:2em;'></span>Рассмотрим алгоритм работы узла overrideNext. У каждого узла-ветки есть набор переходов на другие узлы-ветки. В отсутствии узлов-модификаторов, к которым относится overrideNext этот набор остаётся неизменным. Однако в присутствии модификатора overrideNext выполняется проверка наличия установленного указателя, имя которого записано в текст узла overrideNext. В представленном примере проверяется установка указателя(переменной) "overrideNxt1". В случае если указатель установлен, прочитывается Description узла overrideNext, и набор переходов узла-ветки, к которой прикреплён overrideNext, заменяется на переход, путь к которому указан в Description. Путь в Description указывается относительно узла на который установлен указатель.
 </div>
 <div style='background-color: aliceblue;'>
-  <span style='display:inline-block;width:2em;'></span>Let's inspect the algorithm of an overrideNext node operation. Each branch-node poseses a set of transition options to other branch-nodes. In absence modificator-nodes such as overrideNext the given set of transition options remains constant. But when an overrideNext node is assigned to a branch-node a check is performed. In case the pointer the overrideNext text specifies is set("overrideNxt1" in the given example), the set of transition options is replaced with the transition that the path stored in the overrideNext Description points to. The path is given relative to the branch-node the overrideNext pointer dictates.
+  <span style='display:inline-block;width:2em;'></span>Let's inspect the algorithm of an overrideNext node operation. Each branch-node possesses a set of transition options to other branch-nodes. In absence of modificator-nodes such as overrideNext the given set of transition options remains constant. But when an overrideNext node is assigned to a branch-node a check is performed. In case the pointer the overrideNext text specifies is set("overrideNxt1" in the given example), the set of transition options is replaced with the transition that the path stored in the overrideNext Description points to. The path is given relative to the branch-node the overrideNext pointer dictates.
 </div>
 <div style='background-color: mistyrose;margin-top: 1em;'>
   <span style='display:inline-block;width:2em;'></span>Сборка html файла выполняется стандартным способом. Файл 
