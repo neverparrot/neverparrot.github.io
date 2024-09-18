@@ -1026,6 +1026,52 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
     <div id='abstract' align='left'>
 
   
+  <a href='post61.html'><img src='static/ornaments/post61season2016_logo.svg' style='height:5em;display:inline-block;' /></a>
+  <a href='post62.html'><img src='static/ornaments/post62season2016_logo.svg' style='height:5em;display:inline-block;' /></a>
+  <a href='post70.html'><img src='static/ornaments/post70season2017_logo.svg' style='height:5em;display:inline-block;' /></a>
+  <a href='post74.html'><img src='static/ornaments/post74season2018_logo.svg' style='height:5em;display:inline-block;' /></a>
+  
+  
+  <div style='position:relative;'>
+    
+     <div>
+      Это новые штампики-ярлыки для пометки старых картинок которые я собираюсь 
+      выложить отдельно от большой публикации которой они принадлежат. 
+      Иногда не хочется загружать сразу много картинок, и так их будет проще найти.
+     </div>
+
+     <div style='margin-top:1em;'>
+      Those are the new stamps-pictags for marking separately posted old pictures
+      because some times you don't want to load all the pictures from a
+      big publication they belong to. This will make the pictures easier 
+      to find.
+     </div>
+
+   </div>
+   
+   
+</div>
+<div align='center'>
+<a href='index.html' style='display:none' class='read_more' align='center'>
+     
+   </a> 
+</div>
+
+  </div>
+
+
+<img src='static/ornaments/main_page_time_axis.svg' class='main_page_time_axis' />
+
+
+
+<div style='display: flow-root;'>
+  
+  <div class='post_h_background'></div>
+
+  <div class='post_h'>
+    <div id='abstract' align='left'>
+
+  
   <img src='static/sitePromo1_4o.gif' style='width:40em;max-width:80%;' alt='hokum.neocities.org neverparrot--hokum.repl.co neverparrot.nekoweb.org' />
   <div style='position:absolute; z-index:1;'>
     <object type='image/svg+xml' data='static/ornaments/site_programming_logo.svg' style='width:auto; height:5em; opacity: 0.5;'></object>
@@ -1060,8 +1106,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 
   </div>
 
-
-<img src='static/ornaments/main_page_time_axis.svg' class='main_page_time_axis' />
+</div>
 
 
 
@@ -1346,47 +1391,6 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post78.html' style class='read_more' align='center'>
-     Читать дальше / Read more
-   </a> 
-</div>
-
-  </div>
-
-</div>
-
-
-
-<div style='display: flow-root;'>
-  
-  <div class='post_h_background'></div>
-
-  <div class='post_h'>
-    <div id='abstract' align='left'>
-
-
-   <div style='position:absolute; z-index:1;'>
-      <img src='static/must_be_together/site_stapelia_logo/site_stapelia_logo.png' style='display:none' />
-      <object type='image/svg+xml' data='static/must_be_together/site_stapelia_logo/site_stapelia_logo.svg' style='width:auto; height:5em; opacity: 0.5;'></object>
-   </div>
-
-
-
-   <div style='position:relative; z-index:2;'>
-
-     <div>
-      Все цветы сезона 2019 навечно сохранены вмурованными в кристалл. 
-     </div>
-
-     <div style='margin-top:1em;'>
-      Every flower from 2019 blooming season was forever preserved inside the crystal.
-     </div>
-
-
-   </div>
-
-</div>
-<div align='center'>
-<a href='post77.html' style class='read_more' align='center'>
      Читать дальше / Read more
    </a> 
 </div>
