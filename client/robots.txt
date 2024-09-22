@@ -25,8 +25,11 @@
   
   <div class='arrow_box_left'>
      <div style='font: 2.0em arial, sans-serif;'> Противопопугайный сайт</div>
-     <div style='font: 1.0em arial, sans-serif;'> Never Parrot </div>
-     <div align='right'> <a href='archive1.html'>Архив</a> &nbsp <a href='pages/page_faq.html'>FAQ</a></div>
+     <div style='font: 1.0em arial, sans-serif;width: 18em;display: inline-block;'> Never Parrot </div>
+     <div style='display:inline-block;' align='right'> 
+       <a href='archive1.html'>
+         <img src='static/ornaments/archivePage.svg' alt='archive' align='middle' style='height:3em;' title='в архив / to archive' />
+       </a> &nbsp <a href='pages/page_faq.html'>FAQ</a></div>
   </div>
 
   <a href='dippers/dippers_1.html' class='dipper_galery_link'>
@@ -1023,7 +1026,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 <img src='static/firstPostbg.svg' style='height: 5em;margin-bottom: -10;' />
   <div class='first_post_h'>
     
-    <div id='abstract' align='left'>
+    <div id='post88' align='left'>
   
   <div style='position:absolute; z-index:1;'>
     <img src='static/must_be_together/site_stapelia_logo/site_stapelia_logo.png' style='display:none' />
@@ -1068,7 +1071,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
   <div class='post_h_background'></div>
 
   <div class='post_h'>
-    <div id='abstract' align='left'>
+    <div id='post87' align='left'>
 
   
   <a href='post61.html'><img src='static/ornaments/post61season2016_logo.svg' style='height:5em;display:inline-block;' /></a>
@@ -1113,7 +1116,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
   <div class='post_h_background'></div>
 
   <div class='post_h'>
-    <div id='abstract' align='left'>
+    <div id='post86' align='left'>
 
   
   <img src='static/sitePromo1_4o.gif' style='width:40em;max-width:80%;' alt='hokum.neocities.org neverparrot--hokum.repl.co neverparrot.nekoweb.org' />
@@ -1159,7 +1162,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
   <div class='post_h_background'></div>
 
   <div class='post_h'>
-    <div id='abstract' align='left'>
+    <div id='post85' align='left'>
 
    <div style='position:absolute; z-index:1;'>
       <object type='image/svg+xml' data='static/ornaments/site_programming_logo.svg' style='width:auto; height:5em; opacity: 0.5;'></object>
@@ -1196,7 +1199,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
   <div class='post_h_background'></div>
 
   <div class='post_h'>
-    <div id='abstract' align='left'>
+    <div id='post84' align='left'>
 
   <div style='position:relative; z-index:2;'>
     <div style='margin-top:1em;'>
@@ -1231,7 +1234,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
   <div class='post_h_background'></div>
 
   <div class='post_h'>
-    <div id='abstract' align='left'>
+    <div id='post83' align='left'>
 
    <div style='position:absolute; z-index:1;'>
       <img src='static/must_be_together/site_stapelia_logo/site_stapelia_logo.png' style='display:none' />
@@ -1269,7 +1272,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
   <div class='post_h_background'></div>
 
   <div class='post_h'>
-    <div id='abstract' align='left'>
+    <div id='post82' align='left'>
 
    <div style='position:absolute; z-index:1;'>
       <img src='static/must_be_together/site_stapelia_logo/site_stapelia_logo.png' style='display:none' />
@@ -1311,7 +1314,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
   <div class='post_h_background'></div>
 
   <div class='post_h'>
-    <div id='abstract' align='left'>
+    <div id='post81' align='left'>
 
    <div style='position:absolute; z-index:1;'>
       <object type='image/svg+xml' data='static/ornaments/site_programming_logo.svg' style='width:auto; height:5em; opacity: 0.5;'></object>
@@ -1348,7 +1351,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
   <div class='post_h_background'></div>
 
   <div class='post_h'>
-    <div id='abstract' align='left'>
+    <div id='post80' align='left'>
 
      <div>
       Как известно (мне), у нормального человека при себе должно быть два ножа. Один у меня раскладной, а у второго импровизированные ножны из мотка изоленты. Пока у меня был 3d принтер я решил заменить ножны на что-то покрасивше. 
@@ -1376,7 +1379,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
   <div class='post_h_background'></div>
 
   <div class='post_h'>
-    <div id='abstract' align='left'>
+    <div id='post79' align='left'>
 
    <div style='position:absolute; z-index:1;'>
       <object type='image/svg+xml' data='static/ornaments/site_programming_logo.svg' style='width:auto; height:5em; opacity: 0.5;'></object>
@@ -1419,9 +1422,12 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 
 <div class='bottom'>
 
+<img src='static/ornaments/archivePageL.svg' alt='archive' align='top' style='display:inline-block;position:relative;top:-1em;height:4em;' title='в архив / to archive' />
 <span style>
   
-    <a href='archive_latest_first1.html' class='archive_button' align='left'>Архив / Archive</a> 
+  <a href='archive_latest_first1.html' class='archive_button' align='left'>
+    Архив / Archive
+  </a> 
 
 </span>
 
