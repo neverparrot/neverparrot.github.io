@@ -71,7 +71,7 @@ function set_float_main_nailed_stuff_width(e){
       floatThis.style.width = ruler.offsetWidth;
       floatThis.style.paddingLeft = ruler1em.offsetWidth*4;
       floatThis.style.paddingBottom = ruler1em.offsetWidth*4;
-      floatThis.style.marginLeft = ruler1em.offsetWidth*4;
+      //floatThis.style.marginLeft = ruler1em.offsetWidth*4;
       floatThis.style.marginBottom = ruler1em.offsetWidth*4;
       //floatThis.style.borderLeft = "medium solid lightgrey";
       //floatThis.style.borderBottom = "medium solid lightgrey";
