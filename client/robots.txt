@@ -1026,32 +1026,28 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 <img src='static/firstPostbg.svg' style='height: 5em;margin-bottom: -10;' />
   <div class='first_post_h'>
     
-    <div id='post91' align='left'>
+    <div id='post92' align='left'>
 
 
   <div style='position:absolute; z-index:1;'> 
-    <img src='static/ornaments/notOnMain.svg' style='display:none' />
     <img src='static/must_be_together/site_stapelia_logo/site_stapelia_logo.png' style='display:none' />
     <object type='image/svg+xml' data='static/must_be_together/site_stapelia_logo/site_stapelia_logo.svg' style='width:auto; height:5em; opacity: 0.5;'></object>
-    <img src='static/ornaments/post61season2016_logo.svg' style='position:relative;width:auto; height:5em; opacity: 0.5;left:-4em;top:1em;' />
   </div>
 
   <span style='position:absolute; z-index:1;max-width:70%;overflow:hidden;left:9em;' align='top'>
     <div style='z-index:1;width:60em;'>
-    <img src='static/thumbnails/my_garden/20160902-08/20160907_016.jpg' style='width:auto; height:10em;opacity: 0.5;' />
-    <img src='static/thumbnails/my_garden/20160902-08/20160907_039.jpg' style='width:auto; height:10em;opacity: 0.5;' />
-    <img src='static/thumbnails/my_garden/20160902-08/20160907_040.jpg' style='width:auto; height:10em;opacity: 0.5;' />
+    <img src='static/thumbnails/my_garden/season2020/20201012_122119.jpg' style='width:auto; height:10em;opacity: 0.5;' />
     </div>
   </span>
   
   <div style='position:relative; z-index:2;height:10em;left:6em;display:inline-block;text-shadow: 0 0 0.2em white;'> 
 
     <div>
-      Цветок сделал чпок
+      Цветок сделал чпок 2020
     </div>
        
     <div style='margin-top:1em;'>
-      Сhpunk
+      Сhpunk 2020
     </div>
 
      
@@ -1059,7 +1055,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 
 </div>
 <div align='center'>
-<a href='post91.html' style class='read_more' align='center'>
+<a href='post92.html' style class='read_more' align='center'>
      Читать дальше / Read more
    </a> 
 </div>
