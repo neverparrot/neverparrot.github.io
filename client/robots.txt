@@ -1026,6 +1026,54 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 <img src='static/firstPostbg.svg' style='height: 5em;margin-bottom: -10;' />
   <div class='first_post_h'>
     
+    <div id='post96' align='left'>
+
+  <div style='position:absolute; z-index:1;'> 
+    <img src='static/must_be_together/site_stapelia_logo/site_stapelia_logo.png' style='display:none' />
+    <object type='image/svg+xml' data='static/must_be_together/site_stapelia_logo/site_stapelia_logo.svg' style='width:auto; height:5em; opacity: 0.5;'></object>
+  </div>
+
+  <span style='position:absolute; z-index:1;max-width:70%;overflow:hidden;left:9em;' align='top'>
+    <div style='z-index:1;width:60em;'>
+    <img src='static/thumbnails/20200912_171559_thm.jpg' style='width:auto; height:10em;opacity: 0.5;' />
+    </div>
+  </span>
+  
+  <div style='position:relative; z-index:2;height:10em;left:0em;display:inline-block;text-shadow: 0 0 0.2em white;'> 
+
+    <div>
+      Богомол на стапелии 2020
+    </div>
+       
+    <div style='margin-top:1em;'>
+      Mantis on stapelia 2020
+    </div>
+    
+    <div style='margin-top:1em;'>
+      #goblincore
+    </div>
+    
+  </div>
+
+</div>
+<div align='center'>
+<a href='post96.html' style class='read_more' align='center'>
+     Читать дальше / Read more
+   </a> 
+</div>
+
+  </div>
+
+
+<img src='static/ornaments/main_page_time_axis.svg' class='main_page_time_axis' />
+
+
+
+<div style='display: flow-root;'>
+  
+  <div class='post_h_background'></div>
+
+  <div class='post_h'>
     <div id='post95' align='left'>
 
   <div style='position:absolute; z-index:1;'> 
@@ -1046,7 +1094,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
     </div>
        
     <div style='margin-top:1em;'>
-      Ants and maggots in stapelia flower 2020
+      Ants and maggots on stapelia flower 2020
     </div>
     
     <div style='margin-top:1em;'>
@@ -1064,8 +1112,7 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 
   </div>
 
-
-<img src='static/ornaments/main_page_time_axis.svg' class='main_page_time_axis' />
+</div>
 
 
 
@@ -1401,44 +1448,6 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post84.html' style class='read_more' align='center'>
-     Читать дальше / Read more
-   </a> 
-</div>
-
-  </div>
-
-</div>
-
-
-
-<div style='display: flow-root;'>
-  
-  <div class='post_h_background'></div>
-
-  <div class='post_h'>
-    <div id='post83' align='left'>
-
-   <div style='position:absolute; z-index:1;'>
-      <img src='static/must_be_together/site_stapelia_logo/site_stapelia_logo.png' style='display:none' />
-      <object type='image/svg+xml' data='static/must_be_together/site_stapelia_logo/site_stapelia_logo.svg' style='width:auto; height:5em; opacity: 0.5;'></object>
-   </div>
-
-  <div style='position:relative; z-index:2;'>
-    
-    <div style='margin-top:1em;'>
-      <b>23.11.2023 </b> я решил опубликовать фотографию от <b> 27.04.2022</b>. Моё кофе засохло.
-    </div>
-
-    <div style='margin-top:1em;'>
-      On <b>23.11.2023 </b> I decided to publish the picture taken on <b> 27.04.2022</b>. My coffee died.
-    </div>
-
-
-  </div>
-
-</div>
-<div align='center'>
-<a href='post83.html' style class='read_more' align='center'>
      Читать дальше / Read more
    </a> 
 </div>
