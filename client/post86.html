@@ -12,7 +12,7 @@
 <link rel='icon' type='image/png' sizes='16x16' href='static/favicon-16x16.png' />
 <link rel='icon' type='image/x-icon' sizes='48x48 32x32 16x16' href='static/favicon.ico' />
 
-<link href='static/main1.css' rel='stylesheet' type='text/css' />
+<link href='static/main2.css' rel='stylesheet' type='text/css' />
 <title>Противопопугайный сайт / Never Parrot</title>
 </head>
 <body>
@@ -120,11 +120,11 @@
   <div align='center'>
   <div>
 
-     <div style='background-color: mistyrose;'>
+     <div class='post_text_ru'>
       Порисуйте кружочки
      </div>
 
-     <div style='background-color: aliceblue;'>
+     <div class='post_text_en'>
       Draw some circles
      </div>
 
@@ -132,9 +132,9 @@
   </div>
   
   
-    <div style='background: url(static/howToDrawAParrot/001.png);height: 40em;background-repeat: no-repeat;background-position: center;background-size: contain;display: inline-block;max-width: 90%;width: 40em;margin: 0.5em;max-height: 90vw;'>
+    <div style='background: url(static/howToDrawAParrot/001.png);height: 40em;width: 40em;background-repeat: no-repeat;background-position: center;background-size: contain;display: inline-block;max-width: 90%;margin: 0.5em;max-height: 90vw;'>
     
-      <div style='background: url(static/howToDrawAParrot/drawSomeCircles_1O.gif);height: 40em;background-repeat: no-repeat;background-position: center;background-size: contain;display: inline-block;max-width: 90%;width: 40em;margin: 0.5em;max-height: 90vw;'>
+      <div style='background: url(static/howToDrawAParrot/drawSomeCircles_1O.gif);height: 40em;width: 40em;background-repeat: no-repeat;background-position: center;background-size: contain;display: inline-block;max-width: 90%;margin: 0.5em;max-height: 90vw;'>
       </div>
     
     </div>
@@ -149,14 +149,14 @@
   
   <div>
 
-     <div style='background-color: mistyrose;'>
+     <div class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       Дорисуйте остального попугая. Я не собирался в миллионный раз повторять уроки Блендера. 
       Моя цель выделить использование Blobby которое больше нигде не найти. 
       Примеры BJS и escad раньше можно было найти только зарывшись в исходники.
      </div>
 
-     <div style='background-color: aliceblue;'>
+     <div class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       Draw the rest of the parrot. I wasn't going to repeat Blender tutorials for the 
       millionth time. My goal was to highlight the usage of Blobby that you can't 
@@ -171,59 +171,96 @@
 
   
   
-  <div style='margin-top: 1em;'>
+  <div style='margin-top: 2em;'>
     redCollaredLorikeet.bjs :
   </div>
-<p style='font-family: Liberation Mono, monospace;overflow-x: auto;max-width: 95%;'>
-1 <br />
-2 <span>imp lori</span><br />
-3 <span>loriBase</span><br />
-4 <span>lori</span><br />
-5 <br />
-6 <span>keepSingleLayer lori Collection3</span><br />
-7 <br />
+<div class='post_text_code_outer'>
+  <div class='post_text_code_line_num'>
+    1 <br />
+    2 <br />
+    3 <br />
+    4 <br />
+    5 <br />
+    6 <br />
+    7 <br />
+  </div>
+  <div class='post_text_code_inner'>
+    <div>
+      <br />
+      <span>imp lori</span><br />
+      <span>loriBase</span><br />
+      <span>lori</span><br />
+      <br />
+      <span>keepSingleLayer lori Collection3</span><br />
+      <br />
+    </div>
+  </div>
+</div>
 
-</p>
 
 
-
-
-  <div>
+  <div style='margin-top: 2em;'>
     redCollaredLorikeet.escad :
   </div>
-<p style='font-family: Liberation Mono, monospace;overflow-x: auto;max-width: 95%;'>
- 1 <br />
- 2 <span>union ( r = 0) {</span><br />
- 3   <br />
- 4   <span>${loriU}</span><br />
- 5   <span>${loriWingU2}</span><br />
- 6   <span>${loriWingU2.opposite}</span><br />
- 7   <span>${loriTailU}</span><br />
- 8   <br />
- 9   <span>union ( r = 0) {</span><br />
-10           <span>${loriRightLegU}</span><br />
-11     <span>}</span><br />
-12   <br />
-13   <span>union ( r = 0) {</span><br />
-14           <span>${loriRightLegU.opposite}</span><br />
-15     <span>}</span><br />
-16   <br />
-17 <span>}</span><br />
-18 <br />
+<div class='post_text_code_outer'>
+  <div class='post_text_code_line_num'>
+     1 <br />
+     2 <br />
+     3 <br />
+     4 <br />
+     5 <br />
+     6 <br />
+     7 <br />
+     8 <br />
+     9 <br />
+    10 <br />
+    11 <br />
+    12 <br />
+    13 <br />
+    14 <br />
+    15 <br />
+    16 <br />
+    17 <br />
+    18 <br />
+  </div>
+  <div class='post_text_code_inner'>
+    <div>
+      <br />
+      <span>union ( r = 0) {</span><br />
+        <br />
+        <span>${loriU}</span><br />
+        <span>${loriWingU2}</span><br />
+        <span>${loriWingU2.opposite}</span><br />
+        <span>${loriTailU}</span><br />
+        <br />
+        <span>union ( r = 0) {</span><br />
+               <span>${loriRightLegU}</span><br />
+         <span>}</span><br />
+        <br />
+        <span>union ( r = 0) {</span><br />
+                <span>${loriRightLegU.opposite}</span><br />
+          <span>}</span><br />
+        <br />
+      <span>}</span><br />
+      <br />
+    </div>
+  </div>
 
-</p>
+</div>
 
 
-  <div>
 
-     <div style='background-color: mistyrose;'>
+
+  <div style='margin-top: 2em;'>
+
+     <div class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       Скрипт BJS посылает группу "lori" в скрипт escad с целью получить неявную поверхность
       "lori" в форме <s>гномика</s> попугая. Основным объектом, несущим в себе дополнительные 
       свойства, является "loriBase".
      </div>
 
-     <div style='background-color: aliceblue;'>
+     <div class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       The BJS script sends "lori" group to the escad script to receive an implicit surface
       in the shape of <s>don't google this meme</s> a parrot. The base object "loriBase"
@@ -243,7 +280,7 @@ loriBase["type"]="Sphere";
 
   <div>
 
-     <div style='background-color: mistyrose;'>
+     <div class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       Свойства "toOpenSCAD" и "type" обязательны для всех объектов в группе
       на посыл в openscad/extopenscad, 
@@ -258,7 +295,7 @@ loriBase["type"]="Sphere";
       цилиндра или конуса, выставьте их в Блендере вручную.
      </div>
 
-     <div style='background-color: aliceblue;'>
+     <div class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       Properties "toOpenSCAD" and "type" are mandatory for all objects in
       a group that is to be sent to openscad/extopenscad. The rest are 
@@ -281,7 +318,7 @@ loriBase["type"]="Sphere";
 
   <div>
 
-    <div style='background-color: mistyrose;'>
+    <div class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       Члены вида ${} в escad-е являются именами подгрупп группы 
       использованной в BJS. В примере "loriU", "loriWingU2", 
@@ -293,7 +330,7 @@ loriBase["type"]="Sphere";
       apply_custom_options.py</a> или её вариантов.
     </div>
 
-    <div style='background-color: aliceblue;'>
+    <div class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       The ${} entries of an escad are the names of the subgroups of 
       the group used by a BJS. For example "loriU", "loriWingU2", 
@@ -310,7 +347,7 @@ loriBase["type"]="Sphere";
 
   <div>
 
-    <div style='background-color: mistyrose;'>
+    <div class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       Команда keepSingleLayer происходит из времён, когда в Блендере ещё 
       были слои. Команда помещает объект на указанный слой, и убирает 
@@ -318,7 +355,7 @@ loriBase["type"]="Sphere";
       с коллекциями.
     </div>
 
-    <div style='background-color: aliceblue;'>
+    <div class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       The "keepSingleLayer" command originates from the times when Blender 
       had layers. It puts the object onto the given layer and removes it from 
@@ -330,14 +367,14 @@ loriBase["type"]="Sphere";
   
   <div>
 
-    <div style='background-color: mistyrose;'>
+    <div class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       За прошедшие годы я поднимал несколько зеркал этого сайта с целью 
       повышения доступности и отказоустойчивости. Вы имеете возможность оценить 
       степень актуальности зеркал по состоянию табличек.
     </div>
 
-    <div style='background-color: aliceblue;'>
+    <div class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       Over the years I have spawned several mirrors of this site to improve
       accessibility and fault-tolerance. The level of upkeep of the signs

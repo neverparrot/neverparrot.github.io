@@ -406,6 +406,46 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(237,104,104,1) 100%)
     position: relative;
 }
 
+
+.post_text_ru {
+  background-color: mistyrose;
+  padding-left: 0.5em;
+}
+
+.post_text_en {
+  background-color: aliceblue;
+  padding-left: 0.5em;
+}
+
+.post_text_code_outer {
+  margin-top: 1em;
+  font-family: Liberation Mono, monospace;
+  font-size: 1em;
+  overflow-x: auto;
+  max-width: 95%;
+  text-size-adjust: none;
+  -webkit-text-size-adjust:none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  vertical-align:middle;
+}
+
+.post_text_code_line_num {
+  display:inline-block;
+  font-family: Liberation Mono, monospace;
+  font-size: 1em;
+  vertical-align: top;
+}
+
+.post_text_code_inner {
+  display:inline-block;
+  max-width: 90%;
+  overflow-x: auto;
+  font-family: Liberation Mono, monospace;
+  font-size: 1em;
+  vertical-align: top;
+}
+
 .first_post_h {
    font-size: 1.4em;
    line-height: 1.4em;
