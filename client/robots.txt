@@ -13,7 +13,7 @@
 <link rel='icon' type='image/png' sizes='16x16' href='static/favicon-16x16.png' />
 <link rel='icon' type='image/x-icon' sizes='48x48 32x32 16x16' href='static/favicon.ico' />
 
-<link href='static/main1.css' rel='stylesheet' type='text/css' />
+<link href='static/main3.css' rel='stylesheet' type='text/css' />
 <title>Противопопугайный сайт / Never Parrot</title>
 </head>
 <body>
@@ -1030,7 +1030,57 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
   <div style='display: flow-root;'>
 
     <div class='first_post_h'>
-      <div id='post99' align='left'>
+      <div id='post100' align='left'>
+
+  <span style='position:absolute; z-index:1;max-width:70%;overflow:hidden;left:9em;' align='top'>
+    <div style='z-index:1;width:60em;'>
+    <img src='static/thumbnails/goblincore/bats2018_thm.gif' style='width:auto; height:10em;opacity: 0.5;' />
+    </div>
+  </span>
+  
+  <div style='position:relative; z-index:2;height:10em;left:0em;display:inline-block;text-shadow: 0 0 0.2em white;'> 
+    
+    <div>
+      Летучие мыши 2018
+    </div>
+       
+    <div style='margin-top:1em;'>
+      Bats 2018
+    </div>
+    
+    <div style='margin-top:1em;'>
+      #goblincore
+    </div>
+    
+    <div class='celebrateText' style='margin-top:1em;'>
+      Пост 100th post 
+    </div>
+    
+  </div>
+
+</div>
+<div align='center'>
+<a href='post100.html' style class='read_more' align='center'>
+     Читать дальше / Read more
+   </a> 
+</div>
+
+    </div>
+
+  </div>
+  
+  
+
+<img src='static/ornaments/main_page_time_axis.svg' class='main_page_time_axis' />
+
+
+
+<div style='display: flow-root;'>
+  
+  <div class='post_h_background'></div>
+
+  <div class='post_h'>
+    <div id='post99' align='left'>
 
   <span style='position:absolute; z-index:1;max-width:70%;overflow:hidden;left:9em;' align='top'>
     <div style='z-index:1;width:60em;'>
@@ -1062,13 +1112,9 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
    </a> 
 </div>
 
-    </div>
-
   </div>
-  
-  
 
-<img src='static/ornaments/main_page_time_axis.svg' class='main_page_time_axis' />
+</div>
 
 
 
@@ -1425,51 +1471,6 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 <div align='center'>
 <a href='post88.html' style class='read_more' align='center'>
      Читать дальше / Read more
-   </a> 
-</div>
-
-  </div>
-
-</div>
-
-
-
-<div style='display: flow-root;'>
-  
-  <div class='post_h_background'></div>
-
-  <div class='post_h'>
-    <div id='post87' align='left'>
-
-  
-  <a href='post61.html'><img src='static/ornaments/post61season2016_logo.svg' style='height:5em;display:inline-block;' /></a>
-  <a href='post62.html'><img src='static/ornaments/post62season2016_logo.svg' style='height:5em;display:inline-block;' /></a>
-  <a href='post70.html'><img src='static/ornaments/post70season2017_logo.svg' style='height:5em;display:inline-block;' /></a>
-  <a href='post74.html'><img src='static/ornaments/post74season2018_logo.svg' style='height:5em;display:inline-block;' /></a>
-  
-  
-  <div style='position:relative;'>
-    
-     <div>
-      Это новые штампики-ярлыки для пометки старых картинок которые я собираюсь 
-      выложить отдельно от большой публикации которой они принадлежат. 
-      Иногда не хочется загружать сразу много картинок, и так их будет проще найти.
-     </div>
-
-     <div style='margin-top:1em;'>
-      Those are the new stamps-pictags for marking separately posted old pictures
-      because some times you don't want to load all the pictures from a
-      big publication they belong to. This will make the pictures easier 
-      to find.
-     </div>
-
-   </div>
-   
-   
-</div>
-<div align='center'>
-<a href='index.html' style='display:none' class='read_more' align='center'>
-     
    </a> 
 </div>
 
