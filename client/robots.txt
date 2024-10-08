@@ -13,7 +13,7 @@
 <link rel='icon' type='image/png' sizes='16x16' href='static/favicon-16x16.png' />
 <link rel='icon' type='image/x-icon' sizes='48x48 32x32 16x16' href='static/favicon.ico' />
 
-<link href='static/main3.css' rel='stylesheet' type='text/css' />
+<link href='static/main.css' rel='stylesheet' type='text/css' />
 <title>Противопопугайный сайт / Never Parrot</title>
 </head>
 <body>
@@ -1061,9 +1061,11 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post100.html' style class='read_more' align='center'>
-     Читать дальше / Read more
+     Читать дальше 100 Read more
    </a> 
 </div>
+
+
 
     </div>
 
@@ -1108,9 +1110,11 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post99.html' style class='read_more' align='center'>
-     Читать дальше / Read more
+     Читать дальше 99 Read more
    </a> 
 </div>
+
+
 
   </div>
 
@@ -1150,9 +1154,11 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post98.html' style class='read_more' align='center'>
-     Читать дальше / Read more
+     Читать дальше 98 Read more
    </a> 
 </div>
+
+
 
   </div>
 
@@ -1197,9 +1203,11 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post97.html' style class='read_more' align='center'>
-     Читать дальше / Read more
+     Читать дальше 97 Read more
    </a> 
 </div>
+
+
 
   </div>
 
@@ -1244,9 +1252,11 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post96.html' style class='read_more' align='center'>
-     Читать дальше / Read more
+     Читать дальше 96 Read more
    </a> 
 </div>
+
+
 
   </div>
 
@@ -1291,9 +1301,11 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post95.html' style class='read_more' align='center'>
-     Читать дальше / Read more
+     Читать дальше 95 Read more
    </a> 
 </div>
+
+
 
   </div>
 
@@ -1336,9 +1348,11 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post94.html' style class='read_more' align='center'>
-     Читать дальше / Read more
+     Читать дальше 94 Read more
    </a> 
 </div>
+
+
 
   </div>
 
@@ -1381,9 +1395,11 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post93.html' style class='read_more' align='center'>
-     Читать дальше / Read more
+     Читать дальше 93 Read more
    </a> 
 </div>
+
+
 
   </div>
 
@@ -1426,9 +1442,11 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post92.html' style class='read_more' align='center'>
-     Читать дальше / Read more
+     Читать дальше 92 Read more
    </a> 
 </div>
+
+
 
   </div>
 
@@ -1470,9 +1488,11 @@ The name that I didn’t care for for 7 years but anyway there it goes <s>secret
 </div>
 <div align='center'>
 <a href='post88.html' style class='read_more' align='center'>
-     Читать дальше / Read more
+     Читать дальше 88 Read more
    </a> 
 </div>
+
+
 
   </div>
 
