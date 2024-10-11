@@ -43,13 +43,34 @@ function replaceInnerHtmlIfHasGivenValueAttr(name,repl,node){
 
 }
   
+
 function setOverrideNextToThisBranch(e){
-  //alert("myF " + e.target.innerHTML);
-  //alert("ThisBranch " + );
-  var branchName = e.target.parentNode.getAttribute("value").split("option_")[1];
-  //document.getElementById("cache").children = 
+  setOverrideNextToThisBranch_(e,"overrideNxt1");
+}
+function setOverrideNextToThisBranch1(e){
+  setOverrideNextToThisBranch_(e,"overrideNxt1");
+}
+
+function setOverrideNextToThisBranchString(branchName,v){
   ([].slice.call(document.getElementById("cache").children)).map(function(n){
-    return replaceInnerHtmlIfHasGivenValueAttr("overrideNxt1"
+    return replaceInnerHtmlIfHasGivenValueAttr(v
+      ,"<param value=\"" + branchName + "\">"
+      ,n
+      );
+    }
+    );
+}
+
+function setOverrideNextToThisBranch2(e){
+  setOverrideNextToThisBranch_(e,"overrideNxt2");
+}
+
+function setOverrideNextToThisBranch_(e,v){
+
+  var branchName = e.target.parentNode.getAttribute("value").split("option_")[1];
+
+  ([].slice.call(document.getElementById("cache").children)).map(function(n){
+    return replaceInnerHtmlIfHasGivenValueAttr(v
       ,"<param value=\"" + branchName + "\">"
       ,n
       );
@@ -57,6 +78,36 @@ function setOverrideNextToThisBranch(e){
     );
 
 }
+
+
+
+
+function clearOverrideNext(e){
+  clearOverrideNext_(e,"overrideNxt1");
+  clearOverrideNext_(e,"overrideNxt2");
+}
+function clearOverrideNext1(e){
+  clearOverrideNext_(e,"overrideNxt1");
+}
+function clearOverrideNext2(e){
+  clearOverrideNext_(e,"overrideNxt2");
+}
+
+function clearOverrideNext_(e,v){
+  //alert("myF " + e.target.innerHTML);
+  //alert("ThisBranch " + );
+  //document.getElementById("cache").children = 
+  ([].slice.call(document.getElementById("cache").children)).map(function(n){
+    return replaceInnerHtmlIfHasGivenValueAttr(v,"",n);
+    }
+    );
+
+}
+
+
+
+
+
 
 
 function set_float_main_nailed_stuff_width(e){
@@ -82,15 +133,30 @@ function set_float_main_nailed_stuff_width(e){
 }
 
 
-function set_main_nailed_stuff_1shot(e){
+function set_main_nailed_stuff_1shot(n){
   const display = document.getElementById("display");
   const display1shot = document.getElementById("display1shot");
   display1shot.innerHTML = display.innerHTML;
-  document.getElementById("display").childNodes.forEach(function(n){
-      n.style.display = "none";
+  /*display.childNodes.forEach(function(x){
+      x.style.display = "none";
     }
     );
-  display.style.display = "block";
+    display.style.display = "block";
+  */
+  try {
+    display.childNodes.forEach(function(x){
+      x.style.display = "none";
+    }
+    );
+    display.style.display = "block";
+  } catch(e) {
+    if (n == null) {n=1;};
+    if (n < 10000) {
+      setTimeout(set_main_nailed_stuff_1shot,1,n+1);
+    }
+  }
+  
+  
 }
 
 
