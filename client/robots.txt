@@ -35,6 +35,36 @@
   <a href='/taggedid/17x1.html' class='dipper_galery_link'>
      <div class='arrow_box_dipper_galery'>
          
+            <img src='/static/thumbnails/goblincore/DSC00003_thm.JPG' />
+
+
+
+         
+            <img src='/static/thumbnails/20170630_210822_thm.jpg' />
+
+
+
+         
+            <img src='/static/thumbnails/20180527_130923_thm.jpg' />
+
+
+
+         
+            <img src='/static/thumbnails/must_be_together/sandLizard_thm.jpg' />
+
+
+
+         
+            <img src='/static/thumbnails/20231005_133605_thm.jpg' />
+
+
+
+         
+            <img src='/static/thumbnails/20200912_171559_thm.jpg' />
+
+
+
+         
             <img src='/static/thumbnails/goblincore/bats2018_thm.jpg' />
 
 
@@ -101,36 +131,6 @@
 
          
             <img src='/static/thumbnails/my_garden/season2018/20180802_173320.jpg' />
-
-
-
-         
-            <img src='/static/thumbnails/my_garden/season2018/20180805_142658.jpg' />
-
-
-
-         
-            <img src='/static/thumbnails/my_garden/season2018/20180805_142730.jpg' />
-
-
-
-         
-            <img src='/static/thumbnails/my_garden/season2018/20180805_144312.jpg' />
-
-
-
-         
-            <img src='/static/thumbnails/my_garden/season2018/20180824_212147.jpg' />
-
-
-
-         
-            <img src='/static/thumbnails/my_garden/season2018/20180825_171723.jpg' />
-
-
-
-         
-            <img src='/static/thumbnails/my_garden/season2018/20180907_155035.jpg' />
 
 
 
