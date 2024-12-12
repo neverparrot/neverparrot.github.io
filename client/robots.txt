@@ -35,6 +35,16 @@
   <a href='/taggedid/17x1.html' class='dipper_galery_link'>
      <div class='arrow_box_dipper_galery'>
          
+            <object type='image/svg+xml' data='/static/thumbnails/goblincore/must_be_together/20180703_075418_thm.svg'></object>
+
+
+
+         
+            <object type='image/svg+xml' data='/static/ornaments/fairycore.svg'></object>
+
+
+
+         
             <img src='/static/thumbnails/goblincore/DSC00003_thm.JPG' />
 
 
@@ -121,16 +131,6 @@
 
          
             <img src='/static/thumbnails/my_garden/season2018/20180802_173052.jpg' />
-
-
-
-         
-            <img src='/static/thumbnails/my_garden/season2018/20180802_173124.jpg' />
-
-
-
-         
-            <img src='/static/thumbnails/my_garden/season2018/20180802_173320.jpg' />
 
 
 
@@ -231,7 +231,72 @@
   <div style='display: flow-root;'>
 
     <div class='first_post_h'>
-      <div id='post112' align='left'>
+      <div id='post113' align='left'>
+  
+  <div style='position:absolute; z-index:1;opacity: 0.2;'> 
+    <img src='/static/ornaments/fairycore.svg' style='width:auto; height:5em;' />
+    <img src='/static/ornaments/Biohazard_symbol.svg' style='position:relative;width:auto; height:5em;left:-4em;top:1em;' />
+  </div>
+  
+  <span style='position:absolute; z-index:1;max-width:70%;overflow:hidden;left:9em;' align='top'>
+    <div style='z-index:1;width:60em;'>
+      <span style='position:relative;width:6em;display:inline-block;'>
+      
+      </span>
+      <img src='/static/thumbnails/plants/hogweed_P7220816_thm.JPG' style='width:auto; height:10em;opacity: 0.5;' />
+    </div>
+  </span>
+  
+  <div style='position:relative; z-index:2;left:0em;min-height:10em;text-shadow: 0 0 0.2em white;'> 
+    
+    <div>
+      <span style='width:6em;display:inline-block;'></span>Фото 2007 photo 
+    </div>
+    
+    <div style='margin-top:1em;'>
+      Борщевик Сосновского / Sosnowsky's hogweed
+    </div>
+    
+    <div style='margin-top:1em;'>
+      <div>
+      <s>D - Diabolica</s>
+      </div>
+      <div>
+      <s>D - Death Destruction Domination</s>
+      </div>
+      <div>
+      D - Dermatitis
+      </div>
+    </div>
+    
+  </div>
+  
+
+</div>
+<div align='center'>
+<a href='/post113.html' style class='read_more' align='center'>
+     Читать дальше 113 Read more
+   </a> 
+</div>
+
+
+
+    </div>
+
+  </div>
+  
+  
+
+<img src='/static/ornaments/main_page_time_axis.svg' class='main_page_time_axis' />
+
+
+
+<div style='display: flow-root;'>
+  
+  <div class='post_h_background'></div>
+
+  <div class='post_h'>
+    <div id='post112' align='left'>
   
   <div style='position:absolute; z-index:1;opacity: 0.5;'> 
     <img src='/static/ornaments/fairycore.svg' style='width:auto; height:5em;' />
@@ -265,13 +330,9 @@
 
 
 
-    </div>
-
   </div>
-  
-  
 
-<img src='/static/ornaments/main_page_time_axis.svg' class='main_page_time_axis' />
+</div>
 
 
 
@@ -578,7 +639,7 @@
   
   <span style='position:absolute; z-index:1;max-width:70%;overflow:hidden;left:9em;'>
     <div style='z-index:1;width:60em;opacity: 0.5;'>
-    <img src='/static/thumbnails/goblincore/20180703_075418_thm.jpg' style='width:auto; height:10em;' />
+    <img src='/static/thumbnails/goblincore/must_be_together/20180703_075418_thm.jpg' style='width:auto; height:10em;' />
       <img src='/static/ornaments/250px-Circus_Julien-1810128907.png' style='width:auto; height:5em;' />
     </div>
   </span>
@@ -675,68 +736,6 @@
 </div>
 <div align='center'>
      104
-</div>
-
-
-
-  </div>
-
-</div>
-
-
-
-<div style='display: flow-root;'>
-  
-  <div class='post_h_background'></div>
-
-  <div class='post_h'>
-    <div id='post103' align='left'>
-  
-  <div style='position:absolute; z-index:1;opacity: 0.5;'> 
-    <img src='/static/ornaments/goblincore.svg' style='width:auto; height:5em;' />
-  </div>
-  
-  <span style='position:absolute; z-index:1;max-width:70%;overflow:hidden;left:9em;'>
-    <div style='z-index:1;width:60em;'>
-    <img src='/static/thumbnails/goblincore/20180703_075418_thm.jpg' style='width:auto; height:10em;opacity: 0.5;' />
-    </div>
-  </span>
-  
-  <div style='position:relative; z-index:2;min-height:10em;left:0em;text-shadow: 0 0 0.2em white;'> 
-
-    <div>
-      Цикада поймана пауком 2018
-    </div>
-       
-    <div style='margin-top:1em;'>
-      Cicada caught by a spider 2018
-    </div>
-    
-    <div style='margin-top:1em;'>
-      #goblincore
-    </div>
-    
-  </div>
-  
-  <div align='center'>
-  <a href='/pages/pagePost103.html'>
-    <div style='display:inline-block;width:10em;height:2em;position:relative;left:13em;top:1em;' align='left'>
-       <img src='/static/ornaments/attachedMark.svg' style='height:100%;' />
-    </div>
-
-
-  </a>
-</div>
-
-  
-  
-  
-
-</div>
-<div align='center'>
-<a href='/post103.html' style class='read_more' align='center'>
-     Читать дальше 103 Read more
-   </a> 
 </div>
 
 
