@@ -1,0 +1,10 @@
+{
+ "inputFile"    : "example.fodg"
+,"outputFile"   : "example.html"
+,"templateFile" : "tmpE7.html"
+,"verbosity"    : ["all"
+                  ,"showAllConnectors"
+                  ,"showAllConnected"
+                  ,"show_meaningfullNodes_after_initialParse"
+                  ]
+}
