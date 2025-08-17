@@ -12,7 +12,7 @@
 <link rel='icon' type='image/png' sizes='16x16' href='/static/favicon-16x16.png' />
 <link rel='icon' type='image/x-icon' sizes='48x48 32x32 16x16' href='/static/favicon.ico' />
 
-<link href='/static/main4.css' rel='stylesheet' type='text/css' />
+<link href='/static/main5.css' rel='stylesheet' type='text/css' />
 <title>Противопопугайный сайт / Never Parrot</title>
 </head>
 <body>
@@ -99,13 +99,13 @@
   
   <div style='position:relative;z-index:2;'>
     
-     <div>
+     <p>
       Как нарисовать попугая.
-     </div>
+     </p>
 
-     <div>
+     <p>
       How to draw a parrot.
-     </div>
+     </p>
      <div style='margin-top:2em;'>
       
      </div>
@@ -120,13 +120,13 @@
   <div align='center'>
   <div>
 
-     <div class='post_text_ru'>
+     <p class='post_text_ru'>
       Порисуйте кружочки
-     </div>
+     </p>
 
-     <div class='post_text_en'>
+     <p class='post_text_en'>
       Draw some circles
-     </div>
+     </p>
 
 
   </div>
@@ -149,21 +149,21 @@
   
   <div>
 
-     <div class='post_text_ru'>
+     <p class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       Дорисуйте остального попугая. Я не собирался в миллионный раз повторять уроки Блендера. 
       Моя цель выделить использование Blobby которое больше нигде не найти. 
       Примеры BJS и escad раньше можно было найти только зарывшись в исходники.
-     </div>
+     </p>
 
-     <div class='post_text_en'>
+     <p class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       Draw the rest of the parrot. I wasn't going to repeat Blender tutorials for the 
       millionth time. My goal was to highlight the usage of Blobby that you can't 
       look up anywhere else. 
       Previously you would have to dig through sources to find any examples of 
       BJS and escad.
-     </div>
+     </p>
 
   </div>
 
@@ -171,9 +171,9 @@
 
   
   
-  <div style='margin-top: 2em;'>
+  <p style='margin-top: 2em;'>
     redCollaredLorikeet.bjs :
-  </div>
+  </p>
 <div class='post_text_code_outer'>
   <div class='post_text_code_line_num'>
     1 <br />
@@ -199,9 +199,9 @@
 
 
 
-  <div style='margin-top: 2em;'>
+  <p style='margin-top: 2em;'>
     redCollaredLorikeet.escad :
-  </div>
+  </p>
 <div class='post_text_code_outer'>
   <div class='post_text_code_line_num'>
      1 <br />
@@ -253,20 +253,20 @@
 
   <div style='margin-top: 2em;'>
 
-     <div class='post_text_ru'>
+     <p class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       Скрипт BJS посылает группу "lori" в скрипт escad с целью получить неявную поверхность
       "lori" в форме <s>гномика</s> попугая. Основным объектом, несущим в себе дополнительные 
       свойства, является "loriBase".
-     </div>
+     </p>
 
-     <div class='post_text_en'>
+     <p class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       The BJS script sends "lori" group to the escad script to receive an implicit surface
       in the shape of <s>don't google this meme</s> a parrot. The base object "loriBase"
       carries custom properties.
       
-     </div>
+     </p>
 
   </div>
 
@@ -280,7 +280,7 @@ loriBase["type"]="Sphere";
 
   <div>
 
-     <div class='post_text_ru'>
+     <p class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       Свойства "toOpenSCAD" и "type" обязательны для всех объектов в группе
       на посыл в openscad/extopenscad, 
@@ -293,9 +293,9 @@ loriBase["type"]="Sphere";
       конуса и цилиндра в Блендере и openscad/extopenscad не совпадают 
       по умолчанию. В openscad/extopenscad она находится в центре основания 
       цилиндра или конуса, выставьте их в Блендере вручную.
-     </div>
+     </p>
 
-     <div class='post_text_en'>
+     <p class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       Properties "toOpenSCAD" and "type" are mandatory for all objects in
       a group that is to be sent to openscad/extopenscad. The rest are 
@@ -310,7 +310,7 @@ loriBase["type"]="Sphere";
       setting the origin points to the center of a base of a cone or 
       a cylinder.
       
-     </div>
+     </p>
 
   </div>
 
@@ -318,7 +318,7 @@ loriBase["type"]="Sphere";
 
   <div>
 
-    <div class='post_text_ru'>
+    <p class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       Члены вида ${} в escad-е являются именами подгрупп группы 
       использованной в BJS. В примере "loriU", "loriWingU2", 
@@ -328,9 +328,9 @@ loriBase["type"]="Sphere";
       makeOppositeSide(...) из 
       <a href='https://gitlab.com/Collocalini/blobby/-/blob/d7cc095ffa555d2f8b72347b630489db9795b36c/apply_custom_options.py'>
       apply_custom_options.py</a> или её вариантов.
-    </div>
+    </p>
 
-    <div class='post_text_en'>
+    <p class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       The ${} entries of an escad are the names of the subgroups of 
       the group used by a BJS. For example "loriU", "loriWingU2", 
@@ -341,45 +341,45 @@ loriBase["type"]="Sphere";
       from <a href='https://gitlab.com/Collocalini/blobby/-/blob/d7cc095ffa555d2f8b72347b630489db9795b36c/apply_custom_options.py'>
       apply_custom_options.py</a>.
       
-    </div>
+    </p>
 
   </div>
 
   <div>
 
-    <div class='post_text_ru'>
+    <p class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       Команда keepSingleLayer происходит из времён, когда в Блендере ещё 
       были слои. Команда помещает объект на указанный слой, и убирает 
       его с остальных слоёв. В современном блендере эта команда работает 
       с коллекциями.
-    </div>
+    </p>
 
-    <div class='post_text_en'>
+    <p class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       The "keepSingleLayer" command originates from the times when Blender 
       had layers. It puts the object onto the given layer and removes it from 
       all the other layers. In modern Blender this command works with collections.
       
-    </div>
+    </p>
 
   </div>
   
   <div>
 
-    <div class='post_text_ru'>
+    <p class='post_text_ru'>
       <span style='display:inline-block;width:2em;'></span>
       За прошедшие годы я поднимал несколько зеркал этого сайта с целью 
       повышения доступности и отказоустойчивости. Вы имеете возможность оценить 
       степень актуальности зеркал по состоянию табличек.
-    </div>
+    </p>
 
-    <div class='post_text_en'>
+    <p class='post_text_en'>
       <span style='display:inline-block;width:2em;'></span>
       Over the years I have spawned several mirrors of this site to improve
       accessibility and fault-tolerance. The level of upkeep of the signs
       corresponds to that of the mirrors.
-    </div>
+    </p>
 
   </div>
 

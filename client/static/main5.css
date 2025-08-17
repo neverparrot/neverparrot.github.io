@@ -447,6 +447,17 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(237,104,104,1) 100%)
 }
 
 
+.attached_mark_inner {
+  display:inline-block;
+  width:10em;
+  height:2em;
+  position:relative;
+  left:13em;
+  top:1em;
+}
+
+
+
 @media only screen and (min-width: 60rem) {
   body {
     font-size: 1rem;
@@ -490,9 +501,20 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(237,104,104,1) 100%)
 
 
 
+p {
+  padding: 0em;
+  margin: 0em;
+}
+
+.p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+
 @media only screen and (max-width: 60rem) {
   body {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   .first_post_h,
@@ -502,71 +524,26 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(237,104,104,1) 100%)
     overflow:hidden;
   }
   
-  .first_post_h *,
-  .post_hf *, 
-  .post_h * {
-    font-size: 0.8rem;
+  p, p * {
+    font-size: 1.4rem;
+    
+  }
+  
+  
+  .attached_mark_inner {
+    left:8em;
+    top:0.5em;
+  }
+  
+  .read_more {
+    border-radius: 0 0 30% 30%;
+    width: 20em;
   }
 
-  .first_post_h div,
-  .post_hf div, 
-  .post_h div {
-    font-size: 1.4rem;
-    line-height: 1.4rem;
-  }
-  
-   
-  
-  .post_hf span, 
-  .post_h  span,
-  .post_h .read_more,
-  .first_post_h span,
-  .first_post_h .read_more {
-    font-size: 0.8rem;
-    line-height: 0.8rem;
-  }
-  
-  .first_post_h p, 
-  .first_post_h s,
-  .first_post_h strike,
-  .first_post_h del,
-  .first_post_h u,
-  .first_post_h i,
-  .first_post_h b,
-  .first_post_h pre,
-  .first_post_h a, 
-  .first_post_h li,
-  .post_h p, 
-  .post_h s,
-  .post_h strike,
-  .post_h del,
-  .post_h u,
-  .post_h i,
-  .post_h b,
-  .post_h pre,
-  .post_h a, 
-  .post_h li,
-  .post_hf p, 
-  .post_hf s,
-  .post_hf strike,
-  .post_hf del,
-  .post_hf u,
-  .post_hf i,
-  .post_hf b,
-  .post_hf pre,
-  .post_hf a, 
-  .post_hf li {
-    font-size: 1.4rem;
-    line-height: 1.4rem;
-  }
-  
   .main_page_time_axis {
-    font-size: 0.5rem;
-    position:absolute;
+    display: none;
   }
 
-
-  
   .post_hf .post_text_code_outer,
   .post_h .post_text_code_outer,
   .first_post_h .post_text_code_outer {
@@ -581,31 +558,13 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(237,104,104,1) 100%)
     line-height: 1em;
   }
   
-  
 
-  
-  body .box_post {
-    font-size: 0.5rem;
-  }
-  
   body .box_post ul {
     display: none;
   }
   
-  .arrow_box {
-    font-size: 0.5rem;
-  }
-  
-  .arrow_box_archive {
-    font-size: 0.7rem;
-  }
-  
   .arrow_box_archive ul {
     display: none;
-  }
-  
-  .arrow_box_dipper {
-    font-size: 0.5rem;
   }
   
   .arrow_box_dipper ul {
@@ -616,61 +575,35 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(237,104,104,1) 100%)
     display: none;
   }
   
-  .arrow_box_individual_dipper {
-    font-size: 0.7rem;
-  }
-  
   .arrow_box_individual_dipper ul {
     display: none;
-  }
-  
-  .box_post {
-    font-size: 0.7rem;
   }
   
   .box_post ul {
     display: none;
   }
   
-  .post_h .attached_mark_inner,
-  .post_hf .attached_mark_inner,
-  .first_post_h .attached_mark_inner {
-    left:5em;
-    top:0em;
+
+  .tag {
+    font-size: 1rem;
   }
   
-  
-  body .first_post_h {
-    padding-right: 0;
-    padding-left: 0.5em;
-  }
-  
-  
-  body .firstpost_background {
-    height: 2em;
-  }
-  
-  
-  body .img_miniature {
+  .img_miniature {
     font-size: 0.5rem;
     width:20em;
     height:20em;
   }
   
-  body .img_miniature * {
+  .img_miniature * {
     font-size: 0.5rem;
     max-width:100%;
     max-height:100%;
   }
   
-  body .top_siteMirror {
+  
+  .top_siteMirrorButton {
     font-size: 0.5rem;
   }
-  
-  body .top_siteMirrorButton {
-    font-size: 0.5rem;
-  }
-  
   
   
 }
@@ -679,10 +612,7 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(237,104,104,1) 100%)
 
 
 @media only screen and (max-width: 60rem) and (orientation:landscape) {
-  .post_hf span , .post_h span{
-    font-size: 1rem;
-    line-height: 1rem;
-  }
+
 }
 
 
@@ -877,13 +807,5 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(237,104,104,1) 100%)
 }
 
 
-.attached_mark_inner {
-  display:inline-block;
-  width:10em;
-  height:2em;
-  position:relative;
-  left:13em;
-  top:1em;
-}
 
 
