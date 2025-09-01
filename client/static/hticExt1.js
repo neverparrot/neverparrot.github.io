@@ -127,7 +127,7 @@ function set_float_main_nailed_stuff_width(e){
       //floatThis.style.borderLeft = "medium solid lightgrey";
       //floatThis.style.borderBottom = "medium solid lightgrey";
       floatThis.style.border = "medium solid";
-      floatThis.style.borderImage = "linear-gradient(to top, lightgray, rgba(0, 0, 0, 0) ) 1 100%";
+      floatThis.style.borderImage = "linear-gradient(to top, rgba(0, 0, 0, 0), lightgray, rgba(0, 0, 0, 0)) 1 100%";
       floatThis.style.borderRight = 0;
     }
 }
