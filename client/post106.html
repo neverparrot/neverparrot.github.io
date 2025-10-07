@@ -108,11 +108,38 @@
     </p>
     
     <p style='margin-top:1em;'>
-      <a href='https://neverparrot.nekoweb.org/static/fodgTohtic/post102/hticExt'>hticExt v1.0.1 Linux x86-64 static.</a>
+      <a href='/static/fodgTohtic/post102/hticExt' download class='hostBasedPick'>
+        hticExt v1.0.1 Linux x86-64 static.
+      </a>
+      <a href='https://neverparrot.nekoweb.org/static/fodgTohtic/post102/hticExt' download class='hostBasedPick' style='display:none;'>
+  hokum.neocities.org
+</a>
+
+      <a href='/static/fodgTohtic/post102/hticExt' download class='hostBasedPick' style='display:none;'>
+  neverparrot.nekoweb.org
+</a>
+
+      <a href='/static/fodgTohtic/post102/hticExt' download class='hostBasedPick' style='display:none;'>
+  neverparrot.github.io
+</a>
+
+      
     </p>
   </div>
   
-  
+  <script src='/static/hbup.min.js'></script>
+  <script>
+  function hbup() {
+    var S = PSHBUP.HostBasedUrlPicks;
+    S.hbup("hostBasedPick").apply();
+  }
+</script>
+
+  <script>
+    window.onload = function () {
+      hbup();
+    };
+  </script>
   
 </div>
 
