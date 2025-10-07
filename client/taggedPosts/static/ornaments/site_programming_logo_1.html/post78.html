@@ -187,10 +187,41 @@
       <p style='margin-left: 2em;'>Will build demoEnRu.fodg.html and save log to file.</p>
    </div>
    <div style='margin-top: 2em; margin-bottom: 0.5em;' align='left'>
-        <p><a href='https://neverparrot.nekoweb.org/static/fodgTohtic/demoEnRu.tar.gz'>nekoweb DemoEnRu.tar.gz</a></p>
-        <p><a href='http://127.0.0.1:8080/ipfs/QmPvfTxfjgisy8Aj15qxxvBxVYqbenGoMebMCYSLyr293G'>ipfs DemoEnRu.tar.gz</a></p>
+      <p>
+        <a href='/static/fodgTohtic/demoEnRu.tar.gz' download class='hostBasedPick'>
+          DemoEnRu.tar.gz
+        </a>
+        <a href='https://neverparrot.nekoweb.org/static/fodgTohtic/demoEnRu.tar.gz' download class='hostBasedPick' style='display:none;'>
+  hokum.neocities.org
+</a>
+
+        <a href='/static/fodgTohtic/demoEnRu.tar.gz' download class='hostBasedPick' style='display:none;'>
+  neverparrot.nekoweb.org
+</a>
+
+        <a href='https://neverparrot.nekoweb.org/static/fodgTohtic/demoEnRu.tar.gz' download class='hostBasedPick' style='display:none;'>
+  neverparrot.github.io
+</a>
+
+      </p>
+      <p><a href='http://127.0.0.1:8080/ipfs/QmPvfTxfjgisy8Aj15qxxvBxVYqbenGoMebMCYSLyr293G'>ipfs DemoEnRu.tar.gz</a></p>
    </div>
-   
+  
+  
+  <script src='/static/hbup.min.js'></script>
+  <script>
+  function hbup() {
+    var S = PSHBUP.HostBasedUrlPicks;
+    S.hbup("hostBasedPick").apply();
+  }
+</script>
+
+  <script>
+    window.onload = function () {
+      hbup();
+    };
+  </script>
+  
 </div>
 
 </div>

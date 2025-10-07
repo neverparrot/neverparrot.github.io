@@ -6,6 +6,7 @@
 </style>
 <script type='text/javascript' src='/static/htic-2.0.2.min.js'></script>
 <script type='text/javascript' src='/static/hticExt1.js'></script>
+<script type='text/javascript' src='/static/hbup.min.js'></script>
 <meta charset='UTF-8' />
 <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 <link rel='icon' type='image/png' sizes='128x128' href='/static/favicon-128x128.png' />
@@ -1488,7 +1489,7 @@ Here they are.
 </data><data value='next'><param value='id520id505' /></data><data value='optionChosenState'></data></data><data value='id514id517'><data value='option'><div class='option'><p class='option-ru' style='margin-right:2em;'>Как приручить дракона 2</p><p class='option-en'>How to train your dragon 2</p></div></data><data value='content'><div style='margin-left: 5em;'><p class='text-ru' style='margin-right:2em;'>
 
 
-<a href='https://neverparrot.nekoweb.org/static/How.to.Train.Your.Dragon.2.2014.1080p.WEB-DL.AAC2.0.H264-RARBG.srt'>
+<a href='/static/How.to.Train.Your.Dragon.2.2014.1080p.WEB-DL.AAC2.0.H264-RARBG.srt'>
 Субтитры 
 </a>
 
@@ -2158,7 +2159,19 @@ htic.js library (Fay)
   </p>
 
   <p class='text-en' style='width:100%;display: inline-block;overflow: scroll;'>
-    <a href='https://neverparrot.nekoweb.org/static/fodgTohtic/post102/hticExt' download>hticExt 1.0.1 linux x86-64 static</a>
+    <a href='/static/fodgTohtic/post102/hticExt' download class='hostBasedPick'>hticExt 1.0.1 linux x86-64 static</a>
+    <a href='https://neverparrot.nekoweb.org/static/fodgTohtic/post102/hticExt' download class='hostBasedPick' style='display:none;'>
+  hokum.neocities.org
+</a>
+
+    <a href='/static/fodgTohtic/post102/hticExt' download class='hostBasedPick' style='display:none;'>
+  neverparrot.nekoweb.org
+</a>
+
+    <a href='/static/fodgTohtic/post102/hticExt' download class='hostBasedPick' style='display:none;'>
+  neverparrot.github.io
+</a>
+
     (md5=850a024f487365a3b746102aa6119b06)
   </p>
 
@@ -2303,11 +2316,32 @@ function confirmGoToGithubioMirror(dstConfirmGoToMirror){
   confirmGoTo(msgConfirmGoToMirror,dstConfirmGoToMirror );
 };
 
+
+ 
+</script>
+<script>
+  function htic() {
+    var H = PS.HTICjs;
+    H.htic();
+    document.getElementById("display").children[1].children[0].click();
+  }
+</script>
+
+
+
+<script>
+  function hbup() {
+    var S = PSHBUP.HostBasedUrlPicks;
+    S.hbup("hostBasedPick").apply();
+  }
+</script>
+
+
+<script>
+
 function autostart(n) {
-  //alert("autostart ");
-  var H = PS.HTICjs;
-  H.htic();
-  document.getElementById("display").children[1].children[0].click();
+  hbup();
+  htic();
 };
 
 window.addEventListener('load', autostart, false);

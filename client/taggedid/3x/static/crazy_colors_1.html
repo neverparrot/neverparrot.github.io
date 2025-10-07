@@ -3,9 +3,7 @@
 <style>
 
 </style>
-<script>
-
-</script>
+<script type='text/javascript' src='/static/hbup.min.js'></script>
 <meta charset='UTF-8' />
 <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 <link rel='icon' type='image/png' sizes='128x128' href='/static/favicon-128x128.png' />
@@ -180,6 +178,18 @@ Was hooking up <a href='http://www.implicitcad.org/'>ImplicitCAD</a> to <a href=
 
 
 
+<script>
+  function hbup() {
+    var S = PSHBUP.HostBasedUrlPicks;
+    S.hbup("hostBasedPick").apply();
+  }
+</script>
+
+<script>
+  window.onload = function () {
+    hbup();
+  };
+</script>
 
 </body>
 </html>
