@@ -10,6 +10,35 @@
   <item>
     <description>
         
+        У меня теперь есть RSS. Копируйте себе ссылку.
+       
+        
+        I now have RSS. Grab the link.
+       
+        
+        
+          
+          RSS
+        
+        
+  hokum.neocities.org
+
+
+        
+  neverparrot.nekoweb.org
+
+
+        
+  neverparrot.github.io
+
+
+      </description>
+    <guid isPermaLink='false'>/post128.html</guid>
+  </item>
+
+  <item>
+    <description>
+        
         В 2009 году, на теперь мёртвом сайте drawanime.ru, я поучаствовал в художественном конкурсе "Сны". Проиграл.
        
         
@@ -123,15 +152,6 @@
       Htic-2.0.2 is a fix for when AutoContinue node ignores OverrideNext setting and for a potential race condition between AutoContinue and OverrideNext.
     </description>
     <guid isPermaLink='false'>/post119.html</guid>
-  </item>
-
-  <item>
-    <description>
-      Я перенёс htic.js с Haskell Fay на Purescript и добавил новое поведение для узла AltContent.
-     
-      I ported htic.js from Haskell Fay to Purescript and added new behavior to AltContent node.
-    </description>
-    <guid isPermaLink='false'>/post118.html</guid>
   </item>
 
 
