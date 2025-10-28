@@ -11,6 +11,17 @@
 
   <item>
     <description>
+        
+        Вниманию скачавшим мою программу hticExt фанатам и жертвам Шиндовса представляется.
+       
+        
+        Take a look if you are a fan or a victim of MustDie that happened to download my hticExt program.
+      </description>
+    <guid isPermaLink='true'>https://neverparrot.nekoweb.org/post129.html</guid>
+  </item>
+
+  <item>
+    <description>
         25-10-2025
        
         
@@ -147,15 +158,6 @@
         My continued mission to find what other life had survived the encroachment of our civilization and to boldly go where others would rather not have me around, once again yielded success.
       </description>
     <guid isPermaLink='true'>https://neverparrot.nekoweb.org/post120.html</guid>
-  </item>
-
-  <item>
-    <description>
-      В htic-2.0.2 исправлено игнорирование узлом AutoContinue установки OverrideNext и возможное условие гонки между AutoContinue и OverrideNext.
-     
-      Htic-2.0.2 is a fix for when AutoContinue node ignores OverrideNext setting and for a potential race condition between AutoContinue and OverrideNext.
-    </description>
-    <guid isPermaLink='true'>https://neverparrot.nekoweb.org/post119.html</guid>
   </item>
 
 
