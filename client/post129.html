@@ -1,0 +1,450 @@
+<html>
+<head>
+<style>
+</style>
+<script>
+</script>
+<meta charset='UTF-8' />
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<link rel='icon' type='image/png' sizes='128x128' href='/static/favicon-128x128.png' />
+<link rel='icon' type='image/png' sizes='64x64' href='/static/favicon-64x64.png' />
+<link rel='icon' type='image/png' sizes='32x32' href='/static/favicon-32x32.png' />
+<link rel='icon' type='image/png' sizes='16x16' href='/static/favicon-16x16.png' />
+<link rel='icon' type='image/x-icon' sizes='48x48 32x32 16x16' href='/static/favicon.ico' />
+
+<link href='/static/main7.css' rel='stylesheet' type='text/css' />
+<title>Противопопугайный сайт / Never Parrot</title>
+</head>
+<body>
+
+
+<div class='box_post'>
+
+<span>
+  <a href='/'><img src='/static/logo.jpg' alt='busted parrot' align='top' class='top_l_img' /></a>
+
+<ul>
+  <li style='display:inline;font-size: 2.0em;'>Противопопугайный сайт</li>
+  <li style='display:inline;font-size: 1.0em;'><div>Never Parrot</div></li>
+</ul>
+
+
+</span>
+
+<span id='nav' class='top_r'>
+  
+  <div style='display: inline-block;' align='top'>
+   <a href='/'>
+      <div class='dipper_navig'>
+         <img src='/static/ornaments/main.svg' alt='main' align='top' class='dipper_nav_img' title='на главную / to main page' />
+      </div>
+   </a>
+  </div>
+  <div style='display: inline-block;' align='top'>
+    <a href='/archive3.html#post129'>
+    <div class='dipper_navig'>
+      <img src='/static/ornaments/archivePage.svg' alt='archive' align='top' class='dipper_nav_img' title='в архив / to archive' />
+    </div>
+    </a>
+  </div>
+  
+  
+  <div style='display: inline-block;' align='top'>
+   <a href='/post128.html'>
+      <div class='dipper_navig'>
+         <img src='/static/dipper_prev.svg' alt='previous' align='top' class='dipper_nav_img' />
+      
+
+      </div>
+   </a>
+  </div>
+
+
+
+  <div style='display: inline-block;' align='top'>
+   
+      <div class='dipper_no_navig' title>
+         <img src='/static/dipper_next.svg' alt='next' align='top' class='dipper_nav_img' />
+      
+
+      </div>
+   
+  </div>
+
+
+
+  
+</span>
+
+</div>
+
+
+
+
+
+<div align='center'>
+<div style='max-width:120em;'>
+<div class='post_hf' align='left'>
+<div id='post129' align='left'>
+  
+  <div style='position:absolute; z-index:1;'>
+    <object type='image/svg+xml' data='/static/ornaments/site_programming_logo.svg' style='width:auto; height:5em; opacity: 0.5;'></object>
+  </div>
+
+  <div style='position:relative; z-index:2;'>
+    
+    <div>
+      <p>
+        <span style='display:inline-block;width:2em;'></span>
+        Вниманию скачавшим мою программу hticExt фанатам и жертвам Шиндовса представляется.
+      </p>
+    </div>
+
+    <div style='margin-top:1em;'>
+      <p>
+        <span style='display:inline-block;width:2em;'></span>
+        Take a look if you are a fan or a victim of MustDie that happened to download my hticExt program.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+<div style='margin-top: 1em;'>
+  
+  
+  <div style='margin-top: 1em;'>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Линуксовую исполняху hticExt можно запустить под Виндой 10 и выше. Самый не требовательный способ, это WSL1+Alpine. Настраивается штатными средствами, даже в версии Home.
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      The linux executable of hticExt can be ran on Windows 10 and higher. The least demanding way to do this is WSL1+Alpine. It requires only the regular Windows tools available even on the Home version.
+    </p>
+  </div>
+  
+  <div style='margin-top: 1em;'>
+    <p>1.1</p>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Запустите PowerShell. Здесь и далее PowerShell запускается от администратора. Введите команду:
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      Open PowerShell. From here on out PowerShell has to be ran as an administrator. Enter command:
+    </p>
+  </div>
+  
+  <div class='post_text_code_outer_oneliner'>
+    <p class='post_text_code_inner_oneliner'>
+      wsl --install
+    </p>
+  </div>
+
+  
+  <div style='margin-top: 1em;'>
+    <p>1.1.1</p>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Если написало что опции --install нет, значит у вас старый виндовс и нужно ввести команду:
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      If it reported that the --install option is not available it means that your Windows version is old and you have to use the following command instead:
+    </p>
+  </div>
+  
+  <div class='post_text_code_outer_oneliner'>
+    <p class='post_text_code_inner_oneliner'>
+      dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+    </p>
+  </div>
+
+  
+  <div style='margin-top: 1em;'>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Если на этом месте произошла ошибка, то на этом мои полномочия всё, разбирайтесь сами. Если всё успешно, то перезагружайтесь.
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      If at this stage you encountered an error you'll have to figure it out on your own. Otherwise reboot.
+    </p>
+  </div>
+  
+  <div style='margin-top: 1em;'>
+    <p>1.2</p>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Перезагружайтесь.
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      Reboot.
+    </p>
+  </div>
+  
+  <div style='margin-top: 1em;'>
+    <p>2.1</p>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Скачивайте Alpine, распаковывайте и переходите в папку куда распаковали.
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      Download Alpine. Then unpack and go to the folder you unpacked to.
+    </p>
+    <p>
+      <a href='https://github.com/yuk7/AlpineWSL/releases/download/3.21.3-1/Alpine.zip' download>скачать Alpine download</a>
+    </p>
+    
+  </div>
+  
+  <div style='margin-top: 1em;'>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Я буду считать, что вы распаковали его в
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      I'll assume that you unpacked to
+    </p>
+    <p>
+      C:\hticExtTest\Alpine
+    </p>
+    
+  </div>
+  
+  <div style='margin-top: 1em;'>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      поэтому
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      therefore
+    </p>
+  </div>
+  
+  <div class='post_text_code_outer_oneliner'>
+    <p class='post_text_code_inner_oneliner'>
+      cd C:\hticExtTest\Alpine
+    </p>
+  </div>
+  
+  <div style='margin-top: 1em;'>
+    <p>2.2</p>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Запустите Alpine.exe от администратора. Лучше из PowerShell, так сообщения можно будет прочитать.
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      Run Alpine.exe as administrator. It's better to run it from PowerShell, that way you'll be able to see the console messages.
+    </p>
+    
+  </div>
+  
+  <div class='post_text_code_outer_oneliner'>
+    <p class='post_text_code_inner_oneliner'>
+      .\Alpine.exe
+    </p>
+  </div>
+  
+  <div style='margin-top: 1em;'>
+    <p>3.1</p>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Запустите дистрибутив Alpine.
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      Start the Alpine distribution.
+    </p>
+    
+  </div>
+  
+  <div class='post_text_code_outer_oneliner'>
+    <p class='post_text_code_inner_oneliner'>
+      wsl -d Alpine
+    </p>
+  </div>
+  
+  <div style='margin-top: 1em;'>
+    <p>3.2</p>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Готово, можно запускать hticExt.bin из консоли в которой появилось приглашение ко вводу команд Alpine. Я предполагаю что вы в консоли перешли в папку где лежит hticExt.bin и настройки в settings.json.
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      Done, you are ready to launch hticExt.bin from the console that has the Alpine command prompt. I assume that you cd-ed to the folder that contains hticExt.bin and settings.json.
+    </p>
+    
+  </div>
+  
+  <div class='post_text_code_outer_oneliner'>
+    <p class='post_text_code_inner_oneliner'>
+      ./hticExt.bin settings.json
+    </p>
+  </div>
+  
+  <div style='margin-top: 1em;'>
+    <p>3.2.1</p>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Если оказалось что у hticExt.bin нет разрешения на исполнение, то:
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      If it turned out that hticExt.bin doesn't have the executable flag set then:
+    </p>
+    
+  </div>
+  
+  <div class='post_text_code_outer_oneliner'>
+    <p class='post_text_code_inner_oneliner'>
+      chmod ugo+x hticExt.bin
+    </p>
+  </div>
+  
+  
+  
+  <div style='margin-top: 1em;'>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      В дальнейшем, когда вам понадобится запустить hticExt.bin, повторите пункты 3.1 и 3.2.
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      Now when you need to run hticExt.bin repeat steps 3.1 and 3.2.
+    </p>
+    
+  </div>
+  
+  <div style='margin-top: 1em;'>
+    <p class='post_text_ru'>
+      <span style='display:inline-block;width:2em;'></span>
+      Если вы предпочитаете Docker, но ленитесь написать простейший Dockerfile, то вот он. Описывать установку Docker на Винду не буду, так как предполагаю, что люди предпочитающие Докер умеют это без меня.
+    </p>
+    <p class='post_text_en'>
+      <span style='display:inline-block;width:2em;'></span>
+      If you prefer Docker but can't be bothered to write the simplest of Dockerfiles, here it is. I'm not gonna explain the installation of Docker on windows because people that use docker must know that already.
+    </p>
+  </div>
+  <p style='margin-top: 2em;'>
+    Dockerfile :
+  </p>
+  <div class='post_text_code_outer'>
+    <div class='post_text_code_line_num'>
+      1 <br />
+      2 <br />
+      3 <br />
+      4 <br />
+      5 <br />
+      6 <br />
+      7 <br />
+      8 <br />
+    </div>
+    <div class='post_text_code_inner'>
+      <div>
+        <span>FROM amd64/alpine:20250108</span><br />
+        <br />
+        <span>ADD hticExt.bin /usr/local/bin/</span><br />
+        <span>RUN chmod ugo+rwx /usr/local/bin/hticExt.bin</span><br />
+        <span>WORKDIR /runtime</span><br />
+        <span>RUN chmod ugo+rwx -R /runtime</span><br />
+        <span>ENV PATH="$PATH:/runtime"</span><br />
+        <span>RUN echo $PATH</span><br />
+      </div>
+    </div>
+  </div>
+  
+  
+  <p style='margin-top: 2em;'>
+     docker build -t hticext .
+  </p>
+  <div class='post_text_code_outer'>
+    <div class='post_text_code_line_num'>
+      1 <br />
+      2 <br />
+      3 <br />
+      4 <br />
+      5 <br />
+      6 <br />
+      7 <br />
+      8 <br />
+      9 <br />
+      10 <br />
+      11 <br />
+      12 <br />
+      13 <br />
+      14 <br />
+      15 <br />
+      16 <br />
+      17 <br />
+      18 <br />
+      19 <br />
+      20 <br />
+    </div>
+    <div class='post_text_code_inner'>
+      <div style='width:120em;'>
+        <span>docker build -t hticext .</span><br />
+        <span>[+] Building 3.7s (11/11) FINISHED                                                             docker:default</span><br />
+         <span>=&gt; [internal] load build definition from Dockerfile                                                     0.0s</span><br />
+         <span>=&gt; =&gt; transferring dockerfile: 232B                                                                     0.0s</span><br />
+         <span>=&gt; [internal] load metadata for docker.io/amd64/alpine:20250108                                         2.5s</span><br />
+         <span>=&gt; [internal] load .dockerignore                                                                        0.0s</span><br />
+         <span>=&gt; =&gt; transferring context: 2B                                                                          0.0s</span><br />
+         <span>=&gt; [internal] load build context                                                                        0.1s</span><br />
+         <span>=&gt; =&gt; transferring context: 18.33MB                                                                     0.1s</span><br />
+         <span>=&gt; CACHED [1/6] FROM docker.io/amd64/alpine:20250108@sha256:98bf3bfec8aad59a0dc0345546fde1bd3efd846dde  0.0s</span><br />
+         <span>=&gt; =&gt; resolve docker.io/amd64/alpine:20250108@sha256:98bf3bfec8aad59a0dc0345546fde1bd3efd846ddea070662  0.0s</span><br />
+         <span>=&gt; [2/6] ADD hticExt.bin /usr/local/bin/                                                                0.1s</span><br />
+         <span>=&gt; [3/6] RUN chmod ugo+rwx /usr/local/bin/hticExt.bin                                                   0.2s</span><br />
+         <span>=&gt; [4/6] WORKDIR /runtime                                                                               0.0s</span><br />
+         <span>=&gt; [5/6] RUN chmod ugo+rwx -R /runtime                                                                  0.3s</span><br />
+         <span>=&gt; [6/6] RUN echo /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/runtime                 0.3s</span><br />
+         <span>=&gt; exporting to image                                                                                   0.1s</span><br />
+         <span>=&gt; =&gt; exporting layers                                                                                  0.1s</span><br />
+         <span>=&gt; =&gt; writing image sha256:461946e5711c70406177da6dc7d9275e67d8bf94f434e55463a69c1cd71132ec             0.0s</span><br />
+         <span>=&gt; =&gt; naming to docker.io/library/hticext         </span>
+      </div>
+    </div>
+  </div>
+
+
+  <p style='margin-top: 2em;'>
+    запуск / run :
+  </p>
+  <div class='post_text_code_outer'>
+    <div class='post_text_code_line_num'>
+      1 <br />
+      2 <br />
+      3 <br />
+      4 <br />
+    </div>
+    <div class='post_text_code_inner'>
+      <div style='width:120em;'>
+        <span># !/bin/bash</span><br />
+        <span>docker run -it  --mount src</span><span>=</span><span style='color: brown; font-weight: bold;'>"$(pwd)"</span><span>,</span><span>target</span><span>=/</span><span>runtime</span><span>,</span><span>type</span><span>=</span><span>bind --rm </span><span>\</span><br />
+          <span>hticext</span><span>:</span><span>latest </span><span>\</span><br />
+          <span>hticExt.bin </span><span>$@</span><br />
+      </div>
+    </div>
+  </div>
+  
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+<a href='#nav'><div class='to_nav_r'>↑</div></a>
+
+</body>
+</html>
