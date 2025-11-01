@@ -53,29 +53,6 @@
 
   <item>
     <description>
-        
-        В 2009 году, на теперь мёртвом сайте drawanime.ru, я поучаствовал в художественном конкурсе "Сны". Проиграл.
-       
-        
-        In 2009 I participated in the "Dreams" picture contest on a now dead 
-        drawanime.ru website. I lost.
-      </description>
-    <guid isPermaLink='true'>https://hokum.neocities.org/post127.html</guid>
-  </item>
-
-  <item>
-    <description>
-        
-        Давным давно я решил поучаствовать в проекте игры с открытым кодом. Вскоре я нашёл проект "iZumo", который я принял за опенсорсный клон игры "Zuma", про лягушку стреляющую шариками. В те времена было модно приписывать букву i в начало названий. Но в этот раз дело было не в моде, и читать внимательно нужно было все буквы.
-       
-        
-        Long time ago I decided to participate in the development of an open source game. Soon a suitable candidate was found. I picked a game "iZumo" that I took for an open source clone of "Zuma", a game where a frog spits balls. It was fashionable back then to add an "i" in the beginning of the names of computer programs. Except this time it wasn't just fashion and I should have paid more attention to what was actually written.
-      </description>
-    <guid isPermaLink='true'>https://hokum.neocities.org/post126.html</guid>
-  </item>
-
-  <item>
-    <description>
       Мотыльки сóвки 2025
      
       На цветках дурмана.
@@ -158,6 +135,24 @@
         My continued mission to find what other life had survived the encroachment of our civilization and to boldly go where others would rather not have me around, once again yielded success.
       </description>
     <guid isPermaLink='true'>https://hokum.neocities.org/post120.html</guid>
+  </item>
+
+  <item>
+    <description>
+      В htic-2.0.2 исправлено игнорирование узлом AutoContinue установки OverrideNext и возможное условие гонки между AutoContinue и OverrideNext.
+     
+      Htic-2.0.2 is a fix for when AutoContinue node ignores OverrideNext setting and for a potential race condition between AutoContinue and OverrideNext.
+    </description>
+    <guid isPermaLink='true'>https://hokum.neocities.org/post119.html</guid>
+  </item>
+
+  <item>
+    <description>
+      Я перенёс htic.js с Haskell Fay на Purescript и добавил новое поведение для узла AltContent.
+     
+      I ported htic.js from Haskell Fay to Purescript and added new behavior to AltContent node.
+    </description>
+    <guid isPermaLink='true'>https://hokum.neocities.org/post118.html</guid>
   </item>
 
 
