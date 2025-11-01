@@ -677,6 +677,7 @@ p {
   display:inline-block;
   width:120em;
   margin: 0.5em;
+  font-family: Liberation Mono, monospace;
 }
 
 
