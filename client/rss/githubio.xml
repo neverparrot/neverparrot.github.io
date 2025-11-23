@@ -11,6 +11,83 @@
 
   <item>
     <description>
+        
+        В версии htic-2.1.0.min.js
+        и
+        
+          hticExt-1.0.2
+        
+        
+  hokum.neocities.org
+
+
+        
+  neverparrot.nekoweb.org
+
+
+        
+  neverparrot.github.io
+
+
+        появился узел animatedTextWithEffects/atwe для добавления анимированного текста с эффектами. Правда без эффектов. И со сломанной обратной совместимостью, потому что работает с новым шаблоном
+        tmpE8.html.
+        И весит в два раза больше. Эта запись сделана с применением новой версии. Вот
+        
+          post131.fodg.
+        
+  hokum.neocities.org
+
+
+        
+  neverparrot.nekoweb.org
+
+
+        
+  neverparrot.github.io
+
+
+       
+        
+        New version htic-2.1.0.min.js
+        and
+        
+          hticExt-1.0.2
+        
+        
+  hokum.neocities.org
+
+
+        
+  neverparrot.nekoweb.org
+
+
+        
+  neverparrot.github.io
+
+
+        has a new node animatedTextWithEffects/atwe for animated text with effects(duh). Except no effects are available. And it breaks backward compatibility because it requires new template
+        tmpE8.html.
+        And it's twice the size. This post uses new features. Here it is
+        
+          post131.fodg.
+        
+  hokum.neocities.org
+
+
+        
+  neverparrot.nekoweb.org
+
+
+        
+  neverparrot.github.io
+
+
+      </description>
+    <guid isPermaLink='true'>https://neverparrot.github.io/post131.html</guid>
+  </item>
+
+  <item>
+    <description>
         10-11-2025
        
         
@@ -139,15 +216,6 @@
       After reading the code from post 121 I started to doubt my memory. To not gaslight you I place corrections separately.
      </description>
     <guid isPermaLink='true'>https://neverparrot.github.io/post122.html</guid>
-  </item>
-
-  <item>
-    <description>
-      Когда-то давно, когда я учился программированию, мне задали сделать клеточный автомат. В нём должны были быть клетки трава, травоядные и хищники. Ко сроку сдачи в программе оставался один баг...
-      
-      Long time ago when I was studying software development I was given an assignment to make a cellular automata that had cells for grass, herbivores and carnivores. By the time the assignment was due the program still had a bug...
-     </description>
-    <guid isPermaLink='true'>https://neverparrot.github.io/post121.html</guid>
   </item>
 
 
