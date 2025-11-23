@@ -714,10 +714,11 @@ p {
 .otherPage {
    margin :0.05em;
    border:none;
+   font-size: 1.4em;
 }
 
 .currentPage {
-
+   font-size: 1.4em;
    border:0.1em solid;
 }
 
