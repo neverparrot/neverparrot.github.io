@@ -372,7 +372,7 @@
     /d50;
       <span style='display:inline-block;width:2em;'></span>
 
-    Эта функция проходит по HTML дереву нодов-потомков параметра e, находит елемент с классом classname, и применяет записанные в него комманды в режиме работы mode к его предыдущему соседу(сиблингу). Для оптимизации можно просматривать только numberOfAffected потомков e, первых, если last=false, или последних, если last=true.
+    Эта функция проходит по HTML дереву нодов-потомков параметра e, находит элемент с классом classname, и применяет записанные в него команды в режиме работы mode к его предыдущему соседу(сиблингу). Для оптимизации можно просматривать только numberOfAffected потомков e, первых, если last=false, или последних, если last=true.
   </div>
 
 </div>
@@ -400,7 +400,7 @@
 
        <p style='margin-bottom:0.5em;'></p>
        /d50;
-       <p>при заданном classname=”atwe” программа будет исполнять комманды данные в &lt;div&gt; и отображать их в данном &lt;p&gt;.</p>
+       <p>при заданном classname=”atwe” программа будет исполнять команды данные в &lt;div&gt; и отображать их в данном &lt;p&gt;.</p>
   </div>
 
 </div>
@@ -417,7 +417,7 @@
        /d50;<p>
       <span style='display:inline-block;width:2em;'></span>
 
-    На данный момент единственной доступной коммандой является задание задержки до обработки следующего символа</p>
+    На данный момент единственной доступной командой является задание задержки до обработки следующего символа</p>
        /d1000; /d0;
        /d50;<p style='margin:0.5em;'>\/dчисло; - где число есть количество миллисекунд</p>
        /d1000; /d0;
@@ -438,7 +438,7 @@
        /d50;<p>
       <span style='display:inline-block;width:2em;'></span>
 
-    Комманды исполняются в рамках заданного режима. Режимов 5: replace, append, erase или backspace, eraseLeft или delete, rewrite.</p>
+    Команды исполняются в рамках заданного режима. Режимов 5: replace, append, erase или backspace, eraseLeft или delete, rewrite.</p>
        /d1000; /d0;
        /d50;<p>
       <span style='display:inline-block;width:2em;'></span>
@@ -463,7 +463,7 @@
        /d50;<p>
       <span style='display:inline-block;width:2em;'></span>
 
-    rewrite это комбинация append и eraseLeft. Этот режим создаёт пустую копию нода-назначения и вставляет её перед нодом назначения. Затем поочерёдно(с минимальной задержкой) выполняет комманду append на новом ноде-назначении, и комманду eraseLeft на старом ноде-назначении. Содержимое старого нода-назначения будет полностью удалено. Оба режима выполняются в одном контексте, и потому комманды нода-предписания, содержащего информацию для append влияют и на eraseLeft. Нодом-предписанием для eraseLeft служит копия старого нода-назначения, создаваемая автоматически. Так как комманды для append влияют на оба режима, дополнительные комманды для eraseLeft в автоматически созданном ноде-предписании не создаются. за ненадобностью.</p>
+    rewrite это комбинация append и eraseLeft. Этот режим создаёт пустую копию нода-назначения и вставляет её перед нодом назначения. Затем поочерёдно(с минимальной задержкой) выполняет команду append на новом ноде-назначении, и команду eraseLeft на старом ноде-назначении. Содержимое старого нода-назначения будет полностью удалено. Оба режима выполняются в одном контексте, и потому команды нода-предписания, содержащего информацию для append влияют и на eraseLeft. Нодом-предписанием для eraseLeft служит копия старого нода-назначения, создаваемая автоматически. Так как команды для append влияют на оба режима, дополнительные команды для eraseLeft в автоматически созданном ноде-предписании не создаются. за ненадобностью.</p>
 
   </div>
 
@@ -1120,7 +1120,7 @@
     <p>
       <span style='display:inline-block;width:2em;'></span>
 
-    It allows to better imitate speach and emotions of a speaker.</p>
+    It allows to better imitate speech and emotions of a speaker.</p>
   </div>
 </div>
 </data><data value='next'><param value='id379id380' /></data><data value='animatedTextWithEffects'>replace atwe 10 True</data><data value='optionChosenState'></data></data><data value='id379id380'><data value='option'><div>
@@ -1145,7 +1145,7 @@
     <p>
       <span style='display:inline-block;width:2em;'></span>
 
-    Or blirt out whatever blah blah in a rapid chatter.</p>
+    Or blurt out whatever blah blah in a rapid chatter.</p>
   </div>
 
 </div>
@@ -1469,7 +1469,7 @@
     /d50;
       <span style='display:inline-block;width:2em;'></span>
 
-    This function walks through the tree of descendants of the parameter “e” searching for elements with class “classname” and applies commands that each found element contains, respecting the given “mode”, to a corresponding previous element sibling. For optimisation purpose only the “numberOfAffected” of descendants of “e” will be searched picking initial if last=false and last if last=true.
+    This function walks through the tree of descendants of the parameter “e” searching for elements with class “classname” and applies commands that each found element contains, respecting the given “mode”, to a corresponding previous element sibling. For optimization purpose only the “numberOfAffected” of descendants of “e” will be searched picking initial if last=false and last if last=true.
   </div>
 
 </div>
@@ -1573,22 +1573,22 @@
        /d50;<p>
       <span style='display:inline-block;width:2em;'></span>
 
-    replace instantly and completelly erases the previous content of the destination node to then replace it with the new content.</p>
+    replace instantly and completely erases the previous content of the destination node to then replace it with the new content.</p>
        /d1000; /d0;
        /d50;<p>
       <span style='display:inline-block;width:2em;'></span>
 
-    erase a.k.a. backspace performes a symbol-wise removal beginning from the right. The number of erased symbols equals to the number of symbols in the prescription node.</p>
+    erase a.k.a. backspace performs a symbol-wise removal beginning from the right. The number of erased symbols equals to the number of symbols in the prescription node.</p>
        /d1000; /d0;
        /d50;<p>
       <span style='display:inline-block;width:2em;'></span>
 
-    eraseLeft a.k.a. delete performes a symbol-wise removal beginning from the left. Otherwise is the same as erase.</p>
+    eraseLeft a.k.a. delete performs a symbol-wise removal beginning from the left. Otherwise is the same as erase.</p>
        /d1000; /d0;
        /d50;<p>
       <span style='display:inline-block;width:2em;'></span>
 
-    rewrite is a combination of append and eraseLeft. This mode first creates an empty clone of the destination node and inserts it before the destination node. It then alternates commands with minimal delay. It applies append on the new destination node and eraseLeft on the old destination node. The content of the old destination node will eventually be erased completelly. Both mode-commands are executed in the same context so the prescription for append affects eraseLeft also. The prescription for eraseLeft is the automatically created copy of the old destination node. Given how commands for append affect eraseLeft there is no need for extra commands in the automatically created prescription for eraseLeft.</p>
+    rewrite is a combination of append and eraseLeft. This mode first creates an empty clone of the destination node and inserts it before the destination node. It then alternates commands with minimal delay. It applies append on the new destination node and eraseLeft on the old destination node. The content of the old destination node will eventually be erased completely Both mode-commands are executed in the same context so the prescription for append affects eraseLeft also. The prescription for eraseLeft is the automatically created copy of the old destination node. Given how commands for append affect eraseLeft there is no need for extra commands in the automatically created prescription for eraseLeft.</p>
 
   </div>
 
@@ -1840,7 +1840,7 @@
 
   <p></p>
   <div class='atwe' style='display:none;'>
-       /d50;We now proceed to notes on hticExt and the new atwe node./d1000; /d50;The atwe acronim,/d1000; /d50;as you might have guessed,/d1000; /d50;stands for Animated Text With Effects.
+       /d50;We now proceed to notes on hticExt and the new atwe node./d1000; /d50;The atwe acronym,/d1000; /d50;as you might have guessed,/d1000; /d50;stands for Animated Text With Effects.
   </div>
 
 </div>
@@ -1855,7 +1855,7 @@
 
   <p></p>
   <div class='atwe' style='display:none;'>
-       /d50;We now proceed to notes on hticExt and the new atwe node./d1000; /d50;The atwe acronim,/d1000; /d50;as you might have guessed,/d1000; /d50;stands for Animated Text With Effects.
+       /d50;We now proceed to notes on hticExt and the new atwe node./d1000; /d50;The atwe acronym,/d1000; /d50;as you might have guessed,/d1000; /d50;stands for Animated Text With Effects.
   </div>
 
 </div>
@@ -2001,7 +2001,7 @@
        /d50;
       <span style='display:inline-block;width:2em;'></span>
 
-    The main difference,/d1000; /d50;from the direct function call,/d1000; /d50;is the abcense of parameter “e”./d1000; /d50;In this case the html node is supplied automatically,/d1000; /d50;and it’s the node with id=“display”.
+    The main difference,/d1000; /d50;from the direct function call,/d1000; /d50;is the absence of parameter “e”./d1000; /d50;In this case the html node is supplied automatically,/d1000; /d50;and it’s the node with id=“display”.
   </div>
 
 </div>
