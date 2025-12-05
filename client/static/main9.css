@@ -822,16 +822,21 @@ p {
 
 
 @keyframes frost1{
-    0% { opacity:0; }
-    100% { opacity:1; }
+    0% { opacity:0; background-size: 200% 200%;}
+    100% { opacity:1; background-size: 100% 100%;}
 }
 
 @keyframes frost2{
-    0% { opacity:0; }
-    30% { opacity:0; }
-    100% { opacity:1; }
+    0% { opacity:0; background-size: 300% 300%;}
+    30% { opacity:0; background-size: 200% 200%;}
+    100% { opacity:1; background-size: 100% 100%;}
 }
 
+@keyframes frost3{
+    0% { background-size: 1000% 1000%;}
+    30% { background-size: 200% 200%;}
+    100% { background-size: 100% 100%;}
+}
 
 
 
