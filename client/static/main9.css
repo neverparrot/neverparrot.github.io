@@ -666,12 +666,17 @@ p {
 .post_text_code_inner {
   display:inline-block;
   max-width: 90%;
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: hidden;
   font-family: Liberation Mono, monospace;
   font-size: 1em;
   vertical-align: top;
 }
+
+
+.post_text_code_inner:hover {
+  overflow-x: scroll;
+}
+
 
 .post_text_code_inner_oneliner {
   display:inline-block;
