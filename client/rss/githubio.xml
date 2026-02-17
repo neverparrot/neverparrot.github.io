@@ -12,6 +12,21 @@
   <item>
     <description>
       
+Это имитация гжели. Это белила и гуашь. Настоящая гжель это роспись под глазурью.
+     
+      
+This is imitation of Gzhel. It's white primer and gouache. The real Gzhel is glaze over paint.
+     
+      Красная глина, грунтовка белилами с клеем ПВА, гуаш.
+     
+      Red clay, white primer with PVA glue, gouache.
+    </description>
+    <guid isPermaLink='true'>https://neverparrot.github.io/post141.html</guid>
+  </item>
+
+  <item>
+    <description>
+      
 - Ту-ту-ту, пу-пу-пу, я сижу, фигнёй страдаю...
      
       
@@ -136,83 +151,6 @@ Long time ago I attended ceramics classes. The first thing I made was a dog.
         I programmed the frost pattern effect from scratch. If you monitored my site you may have seen me tweaking it before I got satisfied.
       </description>
     <guid isPermaLink='true'>https://neverparrot.github.io/post132.html</guid>
-  </item>
-
-  <item>
-    <description>
-        
-        В версии htic-2.1.0.min.js
-        и
-        
-          hticExt-1.0.2
-        
-        
-  hokum.neocities.org
-
-
-        
-  neverparrot.nekoweb.org
-
-
-        
-  neverparrot.github.io
-
-
-        появился узел animatedTextWithEffects/atwe для добавления анимированного текста с эффектами. Правда без эффектов. И со сломанной обратной совместимостью, потому что работает с новым шаблоном
-        tmpE8.html.
-        И весит в два раза больше. Эта запись сделана с применением новой версии. Вот
-        
-          post131.fodg.
-        
-  hokum.neocities.org
-
-
-        
-  neverparrot.nekoweb.org
-
-
-        
-  neverparrot.github.io
-
-
-       
-        
-        New version htic-2.1.0.min.js
-        and
-        
-          hticExt-1.0.2
-        
-        
-  hokum.neocities.org
-
-
-        
-  neverparrot.nekoweb.org
-
-
-        
-  neverparrot.github.io
-
-
-        has a new node animatedTextWithEffects/atwe for animated text with effects(duh). Except no effects are available. And it breaks backward compatibility because it requires new template
-        tmpE8.html.
-        And it's twice the size. This post uses new features. Here it is
-        
-          post131.fodg.
-        
-  hokum.neocities.org
-
-
-        
-  neverparrot.nekoweb.org
-
-
-        
-  neverparrot.github.io
-
-
-      </description>
-    <guid isPermaLink='true'>https://neverparrot.github.io/post131.html</guid>
   </item>
 
 
