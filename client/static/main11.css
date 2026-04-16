@@ -224,19 +224,26 @@ background: linear-gradient(to right, rgba(165,24,0,0.65) 0%,rgba(0,0,0,0.33) 50
 
 .read_more {
   padding: 0.05em;
-  text-align: center;
+  text-decoration: none;
+  font-family: Liberation Mono, monospace;
   display: inline-block;
-  border-radius: 0 0 50% 50%;
   width:30em;
+  background: url("/static/ornaments/postbgB.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  //color: white;
+}
 
-background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 72%, rgba(0,0,0,0.25) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(72%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.25))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 72%,rgba(0,0,0,0.25) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 72%,rgba(0,0,0,0.25) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 72%,rgba(0,0,0,0.25) 100%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 72%,rgba(0,0,0,0.25) 100%); /* W3C */
-
-
+.post_number {
+  padding: 0.05em;
+  text-align: center;
+  font-family: Liberation Mono, monospace;
+  display: inline-block;
+  width:30em;
+  background: url("/static/ornaments/postbgB.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  //color: white;
 }
 
 
@@ -321,16 +328,12 @@ display:inline;
 .arrow_box_dipper_galery li{
 display:inline;
 vertical-align: top;
-
 }
 
 .arrow_box_dipper_galery img{
 height:8em;
 width:8em;
 vertical-align: top;
--moz-box-shadow: 0 -13px 20px #000000;
--webkit-box-shadow: 0 -13px 20px #000000;
-box-shadow: 0 -13px 20px #000000;
 }
 
 .arrow_box_dipper_galery object{
@@ -338,10 +341,6 @@ height:8em;
 width:8em;
 pointer-events: none;
 vertical-align: top;
--moz-box-shadow: 0 -13px 20px #000000;
--webkit-box-shadow: 0 -13px 20px #000000;
-box-shadow: 0 -13px 20px #000000;
-
 }
 
 
@@ -446,14 +445,24 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(237,104,104,1) 100%)
 
 }
 
+.first_post_h {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  position: relative;
+  padding-top: 0;
+  padding-left: 2em;
+  padding-bottom: 2em;
+  padding-right: 2em;
+  
+}
 
 .attached_mark_inner {
   display:inline-block;
   width:10em;
   height:2em;
   position:relative;
-  left:13em;
-  top:1em;
+  left:18em;
+  top:0.25em;
 }
 
 
@@ -522,6 +531,7 @@ p {
   .post_h {
     font-size: 0.8rem;
     overflow:hidden;
+    line-height: 1.4rem;
   }
   
   p, p * {
@@ -531,15 +541,15 @@ p {
   
   
   .attached_mark_inner {
-    left:8em;
-    top:0.5em;
+    
   }
   
   .read_more {
-    border-radius: 0 0 30% 30%;
-    width: 20em;
+    line-height: 1.4em;
   }
-
+  .post_number {
+    line-height: 1.4em;
+  }
   .main_page_time_axis {
     display: none;
   }
@@ -590,8 +600,8 @@ p {
   
   .img_miniature {
     font-size: 0.5rem;
-    width:20em;
-    height:20em;
+    max-width:40%;
+    max-height:40%;
   }
   
   .img_miniature * {
@@ -600,7 +610,9 @@ p {
     max-height:100%;
   }
   
-  
+  .top_siteMirror {
+    top: 3.3rem;
+  }
   .top_siteMirrorButton {
     font-size: 0.5rem;
   }
@@ -672,6 +684,7 @@ p {
   vertical-align: top;
 }
 
+
 .post_text_code_inner:hover {
   overflow-x: scroll;
 }
@@ -686,16 +699,7 @@ p {
 
 
 
-.first_post_h {
-  font-size: 1.4em;
-  line-height: 1.4em;
-  position: relative;
-  padding-top: 0;
-  padding-left: 2em;
-  padding-bottom: 2em;
-  padding-right: 2em;
-  
-}
+
 
 
 .nailed_stuff_h {
@@ -826,16 +830,21 @@ p {
 
 
 @keyframes frost1{
-    0% { opacity:0; }
-    100% { opacity:1; }
+    0% { opacity:0; background-size: 200% 200%;}
+    100% { opacity:1; background-size: 100% 100%;}
 }
 
 @keyframes frost2{
-    0% { opacity:0; }
-    30% { opacity:0; }
-    100% { opacity:1; }
+    0% { opacity:0; background-size: 300% 300%;}
+    30% { opacity:0; background-size: 200% 200%;}
+    100% { opacity:1; background-size: 100% 100%;}
 }
 
+@keyframes frost3{
+    0% { background-size: 1000% 1000%;}
+    30% { background-size: 200% 200%;}
+    100% { background-size: 100% 100%;}
+}
 
 
 
