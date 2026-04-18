@@ -418,8 +418,10 @@ background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(237,104,104,1) 100%)
 }
 
 .firstpost_background {
-  height: 5em;
-  margin-bottom: -10;
+  height: 10em;
+  margin-bottom: -4em;
+  position: relative;
+  left: -5em;
 }
 
 .post_h {
@@ -601,7 +603,7 @@ p {
   .img_miniature {
     font-size: 0.5rem;
     max-width:40%;
-    max-height:40%;
+    //max-height:40%;
   }
   
   .img_miniature * {
