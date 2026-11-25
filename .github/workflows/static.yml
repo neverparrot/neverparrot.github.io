@@ -39,7 +39,7 @@ jobs:
           path: './client'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
       - name: Override page_url
         id: change-page-url
         run: echo "new_page_url=${{ steps.deployment.outputs.page_url }}"|sed "s:neverparrot/::" >> $GITHUB_OUTPUT
